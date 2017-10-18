@@ -1,0 +1,27 @@
+p {
+	@extend %reset-bmp;
+}
+
+.copy-01 {
+	font: 30px / 1.2 $fontDefault;
+}
+
+.copy-02 {
+	font: 18px / 1.2 $fontDefault;
+}
+
+.copy-03 {
+	font: 15px / 1.2 $fontDefault;
+}
+
+@include respond-to(X_SMALL) {
+	.copy-01 {
+		font-size: 24px;
+	}
+	.copy-02 {
+		font-size: 14px;
+	}
+	.copy-03 {
+		font-size: 12px;
+	}
+}

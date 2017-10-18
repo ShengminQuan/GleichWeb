@@ -1,1 +1,9 @@
 @import '~normalize.css';
+@import 'type/font';
+@import 'type/copy';
+@import 'type/heading';
+
+// All is border-box!
+* {
+	box-sizing: border-box;
+}

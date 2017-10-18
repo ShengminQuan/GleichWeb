@@ -1,0 +1,40 @@
+@import 'reset';
+@import '../variables';
+
+// Default button styling for button components
+%default-button {
+	padding: 0 15px;
+	border-radius: 35px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transition: opacity 0.2s $easeInOut;
+
+	.label {
+		font: 18px/45px $fontDefault;
+		color: currentColor;
+	}
+
+	&.is-disabled {
+		pointer-events: none;
+		opacity: 0.2;
+	}
+
+	&.is-small {
+		.label {
+			font-size: 12px;
+			line-height: 30px;
+		}
+	}
+
+	@include respond-to(X_SMALL) {
+		.label {
+			font-size: 14px;
+		}
+	}
+}

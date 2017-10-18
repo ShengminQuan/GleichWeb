@@ -4,13 +4,12 @@ import { CONFIG_MANAGER } from 'data/Injectables';
 
 const getLocaleConfig = () => {
 	const configManager = getValue(CONFIG_MANAGER);
-
 	const languages = configManager.getProperty(PropertyNames.AVAILABLE_LOCALES).map(locale => {
-		if (typeof locale === 'string') {
+		if (typeof locale === 'object') {
 			return {
-				code: locale,
-				urlPrefix: locale,
-				translationKey: locale,
+				code: locale.code,
+				urlPrefix: locale.urlPrefix,
+				translationKey: locale.translationKey,
 			};
 		}
 		return locale;

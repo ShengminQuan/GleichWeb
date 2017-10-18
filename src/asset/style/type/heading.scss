@@ -1,0 +1,43 @@
+h1,
+h2,
+h3 {
+	@extend %reset-bmp;
+}
+
+.heading-01 {
+	font: 48px/1 $fontDefault;
+}
+
+.heading-02 {
+	font: 36px/1 $fontDefault;
+}
+
+.heading-03 {
+	font: 30px/0.93 $fontDefault;
+}
+
+.heading-04 {
+	font: 24px/1 $fontDefault;
+}
+
+.heading-05 {
+	font: 18px/1 $fontDefault;
+}
+
+@include respond-to(X_SMALL) {
+	.heading-01 {
+		font-size: 38px;
+	}
+
+	.heading-02 {
+		font-size: 28px;
+	}
+
+	.heading-03 {
+		font-size: 24px;
+	}
+
+	.heading-04 {
+		font-size: 19px;
+	}
+}

@@ -23,8 +23,8 @@ const config = {
 		},
 	},
 	variables: {
-		[VariableNames.LOCALE_ENABLED]: false,
-		[VariableNames.LOCALE_ROUTING_ENABLED]: false,
+		[VariableNames.LOCALE_ENABLED]: true,
+		[VariableNames.LOCALE_ROUTING_ENABLED]: true,
 		[VariableNames.VERSIONED_STATIC_ROOT]: process.env.VERSIONED_STATIC_ROOT,
 		[VariableNames.STATIC_ROOT]: process.env.STATIC_ROOT,
 		[VariableNames.PUBLIC_PATH]: process.env.PUBLIC_PATH,
@@ -35,7 +35,18 @@ const config = {
 	},
 	properties: {
 		[PropertyNames.DEFAULT_LOCALE]: 'en-gb',
-		[PropertyNames.AVAILABLE_LOCALES]: ['en-gb'],
+		[PropertyNames.AVAILABLE_LOCALES]: [
+			{
+				code: 'en-gb',
+				urlPrefix: 'en',
+				translationKey: 'en-gb',
+			},
+			{
+				code: 'zh-cn',
+				urlPrefix: 'zh',
+				translationKey: 'zh-cn',
+			},
+		],
 	},
 };
 

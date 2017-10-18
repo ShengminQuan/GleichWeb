@@ -3,6 +3,9 @@
 
 <template>
 	<div>
-		<h2>HomePage</h2>
+		<MenuComponent componentId="MenuComponent" />
+		<LanguageSwitcher componentId="LanguageSwitcher" />
+		<h2>{{ $t('title')}}</h2>
+
 	</div>
 </template>
