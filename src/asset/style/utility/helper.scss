@@ -1,0 +1,4 @@
+/* function translate px to rem*/
+@function pxTorem($px) {
+	@return $px / $browser-default-font-size * 1rem;
+}

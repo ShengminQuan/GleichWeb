@@ -1074,6 +1074,28 @@ bluebird@^3.1.1, bluebird@^3.4.7:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
+bmaplib.curveline@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/bmaplib.curveline/download/bmaplib.curveline-1.0.0.tgz#826eb0bf1c59fad1b23142be66fc360cf009aea2"
+
+bmaplib.heatmap@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/bmaplib.heatmap/download/bmaplib.heatmap-1.0.2.tgz#c3095338e2b1aaf6c42ac37ab8adcd8804e07618"
+
+bmaplib.lushu@^1.0.5:
+  version "1.0.5"
+  resolved "http://registry.npm.taobao.org/bmaplib.lushu/download/bmaplib.lushu-1.0.5.tgz#ab89ae599ae9367536c38f89b5141e0bb45476d8"
+
+bmaplib.markerclusterer@^1.0.9:
+  version "1.0.9"
+  resolved "http://registry.npm.taobao.org/bmaplib.markerclusterer/download/bmaplib.markerclusterer-1.0.9.tgz#ca6f3a7818b3177cd8cae40b58ab98807dfba483"
+  dependencies:
+    bmaplib.texticonoverlay "^1.0.2"
+
+bmaplib.texticonoverlay@^1.0.2:
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/bmaplib.texticonoverlay/download/bmaplib.texticonoverlay-1.0.2.tgz#d78546ea0f036d9fe964983796315b6c112a05bf"
+
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
@@ -6699,6 +6721,10 @@ svgo@^0.7.0, svgo@^0.7.2:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
+swiper@^3.4.2:
+  version "3.4.2"
+  resolved "http://registry.npm.taobao.org/swiper/download/swiper-3.4.2.tgz#39d6b410b1a39833e1f72d3b72999df5f5e38392"
+
 symbol-observable@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.4.tgz#29bf615d4aa7121bdd898b22d4b3f9bc4e2aa03d"
@@ -7311,6 +7337,21 @@ vrsource-tslint-rules@^5.1.0:
   resolved "https://registry.yarnpkg.com/vrsource-tslint-rules/-/vrsource-tslint-rules-5.1.1.tgz#9bef7a60bc34f6cdc637d7ba1b8d745b71f6dcbe"
   dependencies:
     tslint "~5.1.0"
+
+vue-awesome-swiper@^2.6.7:
+  version "2.6.7"
+  resolved "http://registry.npm.taobao.org/vue-awesome-swiper/download/vue-awesome-swiper-2.6.7.tgz#23b12cf107503305c267df3c7c2903fb39896cd0"
+  dependencies:
+    swiper "^3.4.2"
+
+vue-baidu-map@^0.18.4:
+  version "0.18.4"
+  resolved "http://registry.npm.taobao.org/vue-baidu-map/download/vue-baidu-map-0.18.4.tgz#742c2b68ed45437a7c5c5d94af11198a212f8e56"
+  dependencies:
+    bmaplib.curveline "^1.0.0"
+    bmaplib.heatmap "^1.0.2"
+    bmaplib.lushu "^1.0.5"
+    bmaplib.markerclusterer "^1.0.9"
 
 vue-hot-reload-api@^2.1.0:
   version "2.1.0"

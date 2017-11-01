@@ -4,8 +4,9 @@
 <template>
 	<div>
 		<MenuComponent componentId="MenuComponent" />
-		<LanguageSwitcher componentId="LanguageSwitcher" />
-		<h2>{{ $t('title')}}</h2>
-
+		<HeroSlider />
+		<AboutUs />
+		<News />
+		<ContactUs />
 	</div>
 </template>

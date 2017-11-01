@@ -21,6 +21,11 @@ module.exports = merge(baseWebpackConfig, {
 	module: {
 		rules: [
 			{
+				test: /\.css$/,
+				include: /node_modules/,
+				use: webpackHelpers.getScssLoaderConfig(true),
+			},
+			{
 				test: /\.scss$/,
 				use: webpackHelpers.getScssLoaderConfig(true),
 			},

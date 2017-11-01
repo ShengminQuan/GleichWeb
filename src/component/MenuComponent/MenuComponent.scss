@@ -1,2 +1,41 @@
 :local {
+	.header {
+		background-color: $colorTertiary;
+		overflow: hidden;
+		height: 80px;
+	}
+
+	.item {
+		width: 20%;
+		float: left;
+		color: $colorLightGrey;
+		text-align: center;
+		line-height: 80px;
+		position: relative;
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+	.top-line.active {
+		&:before {
+			content: '';
+			display: block;
+			width: 70%;
+			min-width: 100px;
+			height: 7px;
+			background-color: $colorPrimary;
+			position: absolute;
+			left: 15%;
+			top: 0;
+		}
+	}
+
+	.logo {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 80px;
+	}
 }

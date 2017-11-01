@@ -4,6 +4,7 @@ import 'modernizr';
 import 'settings';
 
 import Vue from 'vue';
+import BaiduMap from 'vue-baidu-map';
 import filter from 'filter';
 import directive from 'directive';
 import component from 'component';
@@ -42,6 +43,10 @@ if (localeConfig.localeEnabled) {
 
 	Vue.initI18nManager();
 }
+
+Vue.use(BaiduMap, {
+	ak: 'V4ZAcWo4zX0rQXF3hRHwhyVquao5YjIX',
+});
 
 // sync router data to store
 sync(store, router);

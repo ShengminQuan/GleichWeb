@@ -1,0 +1,27 @@
+:local {
+	.slider {
+		height: 685px;
+		text-align: center;
+		color: $colorLightGrey;
+	}
+
+	.slider-content {
+		max-width: $mainTextWidth;
+
+		i {
+			vertical-align: middle;
+			margin: 0 12px;
+		}
+
+		p {
+			font-size: pxTorem(15px);
+			line-height: (24 / 15);
+		}
+	}
+
+	.slider1,
+	.slider2,
+	.slider3 {
+		background: url('asset/image/HeroSlider-01.jpg') no-repeat center center / cover;
+	}
+}

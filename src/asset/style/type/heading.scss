@@ -5,11 +5,11 @@ h3 {
 }
 
 .heading-01 {
-	font: 48px/1 $fontDefault;
+	font: 35px/1 $fontDefault;
 }
 
 .heading-02 {
-	font: 36px/1 $fontDefault;
+	font: 32px/1 $fontDefault;
 }
 
 .heading-03 {
@@ -22,6 +22,13 @@ h3 {
 
 .heading-05 {
 	font: 18px/1 $fontDefault;
+}
+
+hr.heading-01--underline {
+	display: block;
+	color: inherit;
+	width: 120px;
+	margin: 10px auto;
 }
 
 @include respond-to(X_SMALL) {

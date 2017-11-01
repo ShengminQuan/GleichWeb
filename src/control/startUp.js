@@ -6,9 +6,11 @@ import PageNames from 'data/enum/PageNames';
 import Pages from 'data/enum/Pages';
 import { createPath } from 'util/routeUtils';
 import Params from 'data/enum/Params';
+import sequentialPromises from 'util/sequentialPromises';
 import { getValue } from 'util/injector';
 import { CONFIG_MANAGER, GATEWAY } from 'data/Injectables';
 import localeLoader from 'util/localeLoader';
+import { NewsMutationTypes } from '../store/module/news';
 
 const initPlugins = () => {
 	const configManager = getValue(CONFIG_MANAGER);
@@ -50,8 +52,9 @@ const startUp = store => {
 	const configManager = getValue(CONFIG_MANAGER);
 
 	// Add async methods to the Promise.all array
-	return Promise.all([
-		configManager.getVariable(VariableNames.LOCALE_ENABLED) ? waitForLocale(store) : Promise.resolve(),
+	return sequentialPromises([
+		() => (configManager.getVariable(VariableNames.LOCALE_ENABLED) ? waitForLocale(store) : Promise.resolve()),
+		() => store.dispatch(NewsMutationTypes.LOAD_NEWS_DATA),
 	]);
 };
 

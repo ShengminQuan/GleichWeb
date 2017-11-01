@@ -1,0 +1,35 @@
+:local {
+	.contact-us {
+		text-align: center;
+		color: $colorLightGrey;
+		background-image: radial-gradient(ellipse at top, #88745a, #3d280b);
+		height: 400px;
+		position: relative;
+		z-index: 1;
+
+		p {
+			font-size: pxTorem(18px);
+			line-height: (28 / 18);
+			font-weight: 100;
+			padding: 30px 20px;
+
+			b {
+				display: block;
+			}
+		}
+
+		&:after {
+			content: '';
+			width: 0;
+			height: 0;
+			border-top: 10px solid #533e22;
+			border-left: 16px solid transparent;
+			border-right: 16px solid transparent;
+			display: block;
+			position: absolute;
+			bottom: -10px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+}

@@ -1,0 +1,54 @@
+:local {
+	.thumnail {
+		width: 100%;
+		padding-bottom: 80%;
+		position: relative;
+		border-radius: 5px;
+	}
+
+	.title {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.8);
+		padding: 8px 10px;
+
+		p {
+			font-size: pxTorem(12px);
+			line-height: (16 / 12);
+			height: 32px;
+			overflow: hidden;
+			color: $colorLightGrey;
+		}
+	}
+
+	.box {
+		background-image: radial-gradient(ellipse at bottom, #2c2c2c, #171717);
+		padding: 10px;
+		color: $colorLightGrey;
+		font-size: pxTorem(12px);
+		overflow: hidden;
+		height: 126px;
+	}
+
+	.description {
+		line-height: 14px;
+		max-height: 14*5px;
+		overflow: hidden;
+	}
+
+	.button {
+		color: $colorLightGrey;
+		display: block;
+		height: 26px;
+		width: 66px;
+		line-height: 26px;
+		text-align: center;
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+		background-image: radial-gradient(ellipse at top, #d1b58f, #a58760);
+		border-radius: 15px;
+	}
+}

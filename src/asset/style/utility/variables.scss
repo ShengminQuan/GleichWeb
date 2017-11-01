@@ -3,14 +3,18 @@ $colorPrimary: #c49630;
 $colorSecondary: #a98e4c;
 $colorTertiary: #31281e;
 $colorLightGrey: #ededed;
+$colorDarkGrey: #424242;
 
 // Fonts
-$fontDefault: 'Arial';
+$fontDefault: 'Arial', 'SimHei';
 
 // Font family groups
 
 // Sizes
+$browser-default-font-size: 16px !default;
 $gridSize: 15px;
 $headerHeight: $gridSize * 4;
+$mainContainerSize: 940px;
+$mainTextWidth: 700px;
 
 $mediaQueries: ('X_SMALL': '(max-width: 374px)');

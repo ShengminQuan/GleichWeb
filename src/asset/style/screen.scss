@@ -7,3 +7,77 @@
 * {
 	box-sizing: border-box;
 }
+
+body {
+	font-family: $fontDefault;
+}
+
+.main-container {
+	max-width: $mainContainerSize;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: inherit;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.icon-diamond {
+	width: 10px;
+	height: 10px;
+	background: $colorPrimary;
+	transform: rotate(-45deg);
+	display: inline-block;
+}
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.container {
+	max-width: $mainTextWidth;
+}
+
+.swiper-pagination {
+	.swiper-pagination-bullet {
+		background: $colorLightGrey;
+		opacity: 1;
+	}
+	.swiper-pagination-bullet-active {
+		background: $colorPrimary;
+	}
+
+	.swiper-pagination-bullet-custom {
+		width: 10px;
+		height: 15px;
+		font-size: 12px;
+		line-height: 15px;
+		color: $colorDarkGrey;
+		background: none;
+	}
+
+	.swiper-pagination-bullet-active {
+		color: $colorPrimary;
+		background: none;
+	}
+}
+
+.summary-wrap {
+	margin: 40px auto;
+	color: $colorDarkGrey;
+}
