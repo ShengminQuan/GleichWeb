@@ -44,10 +44,10 @@ module.exports = {
 	},
 	useHttps: false,
 	prePush: [
-		{
-			name: 'esLintCheck',
-			options: {}
-		},
+		// {
+		// 	name: 'esLintCheck',
+		// 	options: {}
+		// },
 		// {
 		// 	name: 'tsLintCheck',
 		// 	options: {

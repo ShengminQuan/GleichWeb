@@ -4,7 +4,7 @@
 <template>
 	<div :class="$style.newsWrap">
 		<h2 class="heading-01 text-center">News</h2>
-		<div :class="$style.sliderWrap" class="container">
+		<div :class="$style.sliderWrap" class="main-container">
 			<swiper :options="swiperOption" :class="$style.newsSlider">
 				<swiper-slide :key="index" v-for="(news, index) in data">
 					<NewsItem
