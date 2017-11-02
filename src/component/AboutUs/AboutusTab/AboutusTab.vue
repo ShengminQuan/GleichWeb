@@ -5,18 +5,54 @@
 	<div :class="$style.wrap">
 		<div class="main-container">
 			<div :class="$style.tabNav">
-				<div :class="$style.navItem">
+				<div :class="[$style.navItem, activeItem == 0 ? $style.navItemActive : '']" @click="switchTab(0)">
 					关于 Gleich
 				</div>
-				<div :class="$style.navItem">
+				<div :class="[$style.navItem, activeItem == 1 ? $style.navItemActive : '']" @click="switchTab(1)">
 					团队
 				</div>
-				<div :class="[$style.navItem, $style.navItemActive]">
+				<div :class="[$style.navItem, activeItem == 2 ? $style.navItemActive : '']" @click="switchTab(2)">
 					业务准则
 				</div>
 			</div>
 			<div :class="$style.tabContent" class="flex-center">
-				<div v-if="activeItem == 0" :class="[$style.tabItem, $style.team]">
+				<div v-if="activeItem == 0" :class="[$style.tabItem, $style.about]">
+					<div :class="$style.aboutNav" class="clearfix">
+						<div :class="[$style.aboutNavItem, currentAboutItem == 0 ? $style.active : '' ]"
+						     @click="switchAboutTab(0)">
+							<img src="~asset/image/icon-professional.png">
+							专业
+						</div>
+						<div :class="[$style.aboutNavItem, currentAboutItem == 1 ? $style.active  : '' ]"
+						     @click="switchAboutTab(1)">
+							<img src="~asset/image/icon-integrity.png">
+							诚信
+						</div>
+						<div :class="[$style.aboutNavItem, currentAboutItem == 2 ? $style.active  : '' ]"
+						     @click="switchAboutTab(2)">
+							<img src="~asset/image/icon-relationship.png">
+							关系
+						</div>
+						<div :class="$style.aboutNavBar">
+							<i :class="currentAboutItem == 0 ? $style.active  : ''"
+							   @click="switchAboutTab(0)"></i>
+							<i :class="currentAboutItem == 1? $style.active  : ''"
+							   @click="switchAboutTab(1)"></i>
+							<i :class="currentAboutItem == 2 ? $style.active  : ''"
+							   @click="switchAboutTab(2)"></i>
+						</div>
+					</div>
+					<div :class="$style.aboutContent">
+						<p v-if="currentAboutItem == 0" :class="$style.aboutContentText">Gleich
+							配备各类金融专业人才，专注于每一个项目的获取与风险评估。公司与数家澳洲的小型精品金融机构建立了良好的联系，确保了项目的高品质与稀缺性。公司指定了专业的基金律师与审计行，确保项目的操作流程、法律风险以及对投资者信息的公开透明。</p>
+						<p v-if="currentAboutItem == 1" :class="$style.aboutContentText">诚信为本，是Gleich
+							团队的首要共识及处世准则。在金融市场的漫长历史中，诚信风险是导致各类重大危机的根源所在。我们坚信公司与投资者之间，以及团队内部都应做到以诚相待，只做正确的事情，才能确保公司有长期的发展。</p>
+						<p v-if="currentAboutItem == 2" :class="$style.aboutContentText">Gleich
+							坚信投资者与公司团队的各种紧密的信任关系是长期发展的基石。公司对产品的跟投体系将确保投资者的利益的风险与公司团队高度捆绑，共同进退。公司还可为投资者提供澳洲的投资、置业顾问服务，确保投资者的安居乐业。</p>
+					</div>
+				</div>
+
+				<div v-if="activeItem == 1" :class="[$style.tabItem, $style.team]">
 					<div :class="$style.member">
 						<div :class="$style.memberPic">
 							<img src="~asset/image/member-01.jpg">

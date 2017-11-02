@@ -1,13 +1,17 @@
-import VueTypes from 'vue-types';
-
 export default {
 	name: 'AboutusTab',
-	props: {
-		activeItem: VueTypes.number.def(0),
+	data() {
+		return {
+			activeItem: 0,
+			currentAboutItem: 0,
+		};
 	},
-	method: {
+	methods: {
 		switchTab(index) {
 			this.activeItem = index;
+		},
+		switchAboutTab(index) {
+			this.currentAboutItem = index;
 		},
 	},
 };
