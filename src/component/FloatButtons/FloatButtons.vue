@@ -1,0 +1,10 @@
+<style src="./FloatButtons.scss" module lang="scss"></style>
+<script src="./FloatButtons.js"></script>
+
+<template>
+	<div :class="[$style.wrapper, enableFixed ? $style.fix :'']" :style="{right: marginLeft + 'px'}">
+		<a :class="$style.button" href="#" v-scroll-to="'#contact-us'"><span>联系<br>我们</span></a>
+		<a :class="$style.button" href="#" v-scroll-to="'#menu'"><img src="~asset/image/icon--scroll-up.png"></a>
+	</div>
+</template>
+

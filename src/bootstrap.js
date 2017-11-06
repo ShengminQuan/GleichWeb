@@ -2,9 +2,9 @@ import 'polyfill';
 import 'asset/style/screen.scss';
 import 'modernizr';
 import 'settings';
-
 import Vue from 'vue';
 import BaiduMap from 'vue-baidu-map';
+import VueScrollTo from 'vue-scrollto';
 import filter from 'filter';
 import directive from 'directive';
 import component from 'component';
@@ -46,6 +46,18 @@ if (localeConfig.localeEnabled) {
 
 Vue.use(BaiduMap, {
 	ak: 'V4ZAcWo4zX0rQXF3hRHwhyVquao5YjIX',
+});
+
+Vue.use(VueScrollTo, {
+	container: 'body',
+	duration: 800,
+	easing: 'ease-in-out',
+	offset: -80,
+	cancelable: true,
+	onDone: false,
+	onCancel: false,
+	x: false,
+	y: true,
 });
 
 // sync router data to store

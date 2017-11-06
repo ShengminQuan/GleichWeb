@@ -1,0 +1,36 @@
+:local {
+	.wrapper {
+		position: absolute;
+		top: 800px;
+		right: 100px;
+		z-index: 9;
+
+		&.fix {
+			position: fixed;
+			top: 600px;
+		}
+	}
+
+	.button {
+		background: linear-gradient(to bottom, #c1b291, #6f6241);
+		color: #fff;
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		color: $colorLightGrey;
+		align-items: center;
+		margin-bottom: 5px;
+		cursor: pointer;
+
+		img {
+			width: 30%;
+		}
+
+		span {
+			font-size: pxTorem(12px);
+		}
+	}
+}

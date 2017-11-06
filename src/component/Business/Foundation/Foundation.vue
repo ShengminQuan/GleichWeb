@@ -22,7 +22,7 @@
 			</div>
 			<div :class="$style.tabContent">
 				<swiper :options="swiperOption" :not-next-tick="notNextTick" ref="foundationSwiper"
-				        class="foundation-slider">
+				        :class="$style.foundationSlider">
 					<swiper-slide :style="{width: swiperContentWidth + 'px'}">
 						<div :class="$style.swiperContent">
 							<span :class="$style.subtitle">信贷基金 - 基金概要</span>

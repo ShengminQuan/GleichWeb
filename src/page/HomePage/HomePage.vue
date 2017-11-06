@@ -9,5 +9,7 @@
 		<Business />
 		<!--<News />-->
 		<ContactUs />
+		<FooterComponent />
+		<FloatButtons />
 	</div>
 </template>

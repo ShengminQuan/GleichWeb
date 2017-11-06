@@ -84,7 +84,7 @@
 		width: 33.3%;
 		margin-left: 20px;
 		border-radius: 5px;
-		overflow: hidden;
+		overflow-y: scroll;
 
 		&:first-child {
 			margin-left: 0;

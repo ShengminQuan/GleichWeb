@@ -128,4 +128,18 @@
 			display: none;
 		}
 	}
+
+	.foundation-slider :global(.swiper-wrapper) {
+		background: url('asset/image/foundation-bg.jpg') no-repeat center center / cover;
+		padding: 40px;
+		border-radius: 5px;
+	}
+
+	.foundation-slider :global(.swiper-slide) {
+		opacity: 0.6;
+	}
+
+	.foundation-slider :global(.swiper-slide-active) {
+		opacity: 1;
+	}
 }

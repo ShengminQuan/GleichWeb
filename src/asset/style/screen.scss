@@ -10,6 +10,7 @@
 
 body {
 	font-family: $fontDefault;
+	padding-top: 80px;
 }
 
 .main-container {
@@ -28,6 +29,10 @@ a {
 	height: 0;
 	clear: both;
 	visibility: hidden;
+}
+
+.overflow-hidden {
+	overflow: hidden;
 }
 
 .icon-diamond {
@@ -75,25 +80,12 @@ a {
 }
 
 .summary-wrap {
-	margin: 60px auto;
+	padding: 60px 0;
+	margin: 0 auto;
 
 	p {
 		margin-top: 20px;
 		font-size: pxTorem(14px);
 		line-height: (24 / 14);
-	}
-}
-
-.foundation-slider .swiper-wrapper {
-	background: url('../image/foundation-bg.jpg') no-repeat center center / cover;
-	padding: 40px;
-	border-radius: 5px;
-
-	.swiper-slide {
-		opacity: 0.6;
-	}
-
-	.swiper-slide-active {
-		opacity: 1;
 	}
 }

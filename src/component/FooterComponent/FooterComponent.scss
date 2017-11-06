@@ -1,0 +1,44 @@
+:local {
+	.wrapper {
+		background-image: radial-gradient(ellipse at top, #4b4b4a, #000000);
+		padding: 30px;
+		color: $colorLightGrey;
+	}
+
+	.rights {
+		color: $colorPrimary;
+		line-height: (18 / 12);
+		font-size: pxTorem(12px);
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.container {
+		max-width: 560px;
+		margin: 0 auto;
+		overflow: hidden;
+
+		h3 {
+			font-size: pxTorem(20px);
+			line-height: (28 / 20);
+			font-weight: 100;
+			cursor: pointer;
+		}
+
+		p {
+			font-size: pxTorem(14px);
+			line-height: 2;
+			cursor: pointer;
+		}
+	}
+
+	.half {
+		width: 50%;
+		float: left;
+	}
+
+	.list {
+		width: 50%;
+		float: left;
+	}
+}

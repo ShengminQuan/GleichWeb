@@ -3,6 +3,11 @@
 		background-color: $colorTertiary;
 		overflow: hidden;
 		height: 80px;
+		position: fixed;
+		width: 100%;
+		left: 0;
+		top: 0;
+		z-index: 9;
 	}
 
 	.item {
@@ -15,6 +20,10 @@
 
 		a {
 			text-decoration: none;
+			width: 100%;
+			height: 100%;
+			display: block;
+			cursor: pointer;
 		}
 	}
 

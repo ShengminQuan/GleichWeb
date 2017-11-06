@@ -2,7 +2,7 @@
 <script src="./ContactUs.js"></script>
 
 <template>
-	<div>
+	<div id="contact-us" >
 		<div class="flex-center" :class="$style.contactUs">
 			<div class="container">
 				<h2 class="heading-01">联系我们</h2>

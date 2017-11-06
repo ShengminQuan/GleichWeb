@@ -2,7 +2,7 @@
 <script src="./AboutUs.js"></script>
 
 <template>
-	<div>
+	<div id="about-us">
 		<div class="container text-center summary-wrap">
 			<h2 class="heading-01">关于我们</h2>
 			<hr class="heading-01--underline"/>
