@@ -4,26 +4,21 @@
 	}
 
 	.tab-nav {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-	}
-
-	.nav-item {
-		color: $colorLightGrey;
-		font-size: pxTorem(16px);
-		height: 80px;
-		line-height: 80px;
-		width: 150px;
-		background: rgba(95, 68, 3, 0.5);
-		text-align: center;
-		margin: 0 1px;
-	}
-
-	.nav-item-active {
-		background-image: radial-gradient(ellipse at top, #efefef, #c9c7c7);
-		color: $colorDarkGrey;
+		margin: 0 auto;
+		width: 456px;
+		overflow: hidden;
 		position: relative;
+	}
+
+	.nav-active-background {
+		width: 150px;
+		height: 80px;
+		background-image: radial-gradient(ellipse at top, #efefef, #c9c7c7);
+		left: 1px;
+		top: 0;
+		position: absolute;
+		z-index: 1;
+		transition: left 0.5s;
 
 		&:after {
 			content: '';
@@ -40,8 +35,33 @@
 		}
 	}
 
+	.nav-item {
+		color: $colorLightGrey;
+		font-size: pxTorem(16px);
+		height: 80px;
+		line-height: 80px;
+		width: 150px;
+		float: left;
+		background: rgba(95, 68, 3, 0.5);
+		text-align: center;
+		margin-right: 2px;
+		cursor: pointer;
+
+		span {
+			position: relative;
+			z-index: 2;
+		}
+	}
+
+	.nav-item-active {
+		color: $colorDarkGrey;
+		position: relative;
+		transition: color 0.5s;
+	}
+
 	.tab-content {
 		min-height: 460px;
+		padding: 30px 0;
 	}
 
 	.tab-item {
@@ -61,9 +81,14 @@
 	}
 
 	.member {
-		width: 30%;
+		width: 33.3%;
+		margin-left: 20px;
 		border-radius: 5px;
 		overflow: hidden;
+
+		&:first-child {
+			margin-left: 0;
+		}
 	}
 
 	.member-pic {
@@ -87,7 +112,7 @@
 		width: 100%;
 		background: url('asset/image/name-tag-bg.png') no-repeat center center / cover;
 		padding: 5px 10px;
-		line-height: 15px;
+		line-height: 18px;
 	}
 
 	.member-name {
@@ -106,8 +131,8 @@
 			background-color: $colorLightGrey;
 			font-size: pxTorem(12px);
 			color: $colorDarkGrey;
-			line-height: (16 / 12);
-			height: 16*11px;
+			line-height: (18 / 12);
+			height: 200px;
 			overflow: hidden;
 		}
 	}

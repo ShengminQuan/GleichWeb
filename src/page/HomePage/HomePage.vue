@@ -6,7 +6,8 @@
 		<MenuComponent componentId="MenuComponent" />
 		<HeroSlider />
 		<AboutUs />
-		<News />
+		<Business />
+		<!--<News />-->
 		<ContactUs />
 	</div>
 </template>

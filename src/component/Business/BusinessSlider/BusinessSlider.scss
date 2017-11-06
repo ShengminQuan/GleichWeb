@@ -1,0 +1,32 @@
+:local {
+	.content {
+		border-radius: 5px;
+		background: #fff;
+		overflow: hidden;
+
+		h2 {
+			font-size: 16px;
+			padding: 10px 0;
+			text-align: center;
+			background-image: radial-gradient(ellipse at top, #88745a, #3d280b);
+			color: $colorLightGrey;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		.description {
+			padding: 10px;
+			color: $colorDarkGrey;
+
+			p {
+				font-size: 13px;
+				line-height: (21 / 13);
+				margin-top: 0;
+				height: 160px;
+				overflow: hidden;
+			}
+		}
+	}
+}

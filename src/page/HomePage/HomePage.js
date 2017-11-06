@@ -3,6 +3,7 @@ import HeroSlider from '../../component/HeroSlider/HeroSlider';
 import ContactUs from '../../component/ContactUs/ContactUs';
 import News from '../../component/News/News';
 import AboutUs from '../../component/AboutUs/AboutUs';
+import Business from '../../component/Business/Business';
 
 export default {
 	name: 'HomePage',
@@ -10,6 +11,7 @@ export default {
 		MenuComponent,
 		HeroSlider,
 		AboutUs,
+		Business,
 		ContactUs,
 		News,
 	},

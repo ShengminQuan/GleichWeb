@@ -5,14 +5,15 @@
 	<div :class="$style.wrap">
 		<div class="main-container">
 			<div :class="$style.tabNav">
+				<div :class="$style.navActiveBackground" :style="{left: activeItem*152 + 'px'}"></div>
 				<div :class="[$style.navItem, activeItem == 0 ? $style.navItemActive : '']" @click="switchTab(0)">
-					关于 Gleich
+					<span>关于 Gleich</span>
 				</div>
 				<div :class="[$style.navItem, activeItem == 1 ? $style.navItemActive : '']" @click="switchTab(1)">
-					团队
+					<span>团队</span>
 				</div>
 				<div :class="[$style.navItem, activeItem == 2 ? $style.navItemActive : '']" @click="switchTab(2)">
-					业务准则
+					<span>业务准则</span>
 				</div>
 			</div>
 			<div :class="$style.tabContent" class="flex-center">

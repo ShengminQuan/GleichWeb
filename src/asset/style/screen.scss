@@ -72,14 +72,28 @@ a {
 		color: $colorDarkGrey;
 		background: none;
 	}
-
-	.swiper-pagination-bullet-active {
-		color: $colorPrimary;
-		background: none;
-	}
 }
 
 .summary-wrap {
-	margin: 40px auto;
-	color: $colorDarkGrey;
+	margin: 60px auto;
+
+	p {
+		margin-top: 20px;
+		font-size: pxTorem(14px);
+		line-height: (24 / 14);
+	}
+}
+
+.foundation-slider .swiper-wrapper {
+	background: url('../image/foundation-bg.jpg') no-repeat center center / cover;
+	padding: 40px;
+	border-radius: 5px;
+
+	.swiper-slide {
+		opacity: 0.6;
+	}
+
+	.swiper-slide-active {
+		opacity: 1;
+	}
 }
