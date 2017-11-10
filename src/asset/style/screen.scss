@@ -11,6 +11,10 @@
 body {
 	font-family: $fontDefault;
 	padding-top: 80px;
+
+	@include respond-to(SMALL) {
+		padding-top: 53px;
+	}
 }
 
 .main-container {
@@ -33,6 +37,22 @@ a {
 
 .overflow-hidden {
 	overflow: hidden;
+}
+
+.only-showing-mobile {
+	display: none;
+
+	@include respond-to(SMALL) {
+		display: block !important;
+	}
+}
+
+.only-showing-desktop {
+	display: block;
+
+	@include respond-to(SMALL) {
+		display: none !important;
+	}
 }
 
 .icon-diamond {
@@ -83,9 +103,17 @@ a {
 	padding: 60px 0;
 	margin: 0 auto;
 
+	@include respond-to(SMALL) {
+		padding: 50px;
+	}
+
 	p {
 		margin-top: 20px;
 		font-size: pxTorem(14px);
 		line-height: (24 / 14);
+
+		@include respond-to(SMALL) {
+			margin-top: 10px;
+		}
 	}
 }

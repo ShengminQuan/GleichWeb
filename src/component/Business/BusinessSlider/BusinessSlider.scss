@@ -1,4 +1,36 @@
 :local {
+	.slider-wrap {
+		@media (max-width: 939px) {
+			padding: 0 40px;
+			overflow: hidden;
+		}
+	}
+
+	@include respond-to(SMALL) {
+		.slider-wrap :global(.swiper-container) {
+			overflow: visible;
+		}
+
+		.slider-wrap :global(.swiper-slide) {
+			opacity: 0.6;
+		}
+
+		.slider-wrap :global(.swiper-slide-active) {
+			opacity: 1;
+		}
+
+		.slider-wrap :global(.swiper-pagination) {
+			position: static;
+			margin-top: 20px;
+		}
+	}
+
+	@include respond-to(ONLY-BIG) {
+		.slider-wrap :global(.swiper-pagination) {
+			display: none;
+		}
+	}
+
 	.content {
 		border-radius: 5px;
 		background: #fff;

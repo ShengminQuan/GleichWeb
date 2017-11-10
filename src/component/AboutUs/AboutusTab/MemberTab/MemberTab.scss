@@ -1,0 +1,61 @@
+:local {
+	.member {
+		border-radius: 5px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	.member-pic {
+		padding-bottom: 80%;
+		position: relative;
+		overflow: hidden;
+
+		img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			min-width: 100%;
+			min-height: 100%;
+		}
+	}
+
+	.member-info {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		background: url('asset/image/name-tag-bg.png') no-repeat center center / cover;
+		padding: 5px 10px;
+		line-height: 18px;
+	}
+
+	.member-name {
+		font-size: pxTorem(15px);
+		display: block;
+	}
+
+	.member-title {
+		display: block;
+		font-size: pxTorem(12px);
+	}
+
+	.member-desc {
+		p {
+			padding: 10px;
+			background-color: $colorLightGrey;
+			font-size: pxTorem(12px);
+			color: $colorDarkGrey;
+			line-height: (18 / 12);
+			height: 200px;
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+	}
+
+	.slider-wrap :global(.swiper-pagination) {
+		position: static;
+		margin-top: 20px;
+	}
+}

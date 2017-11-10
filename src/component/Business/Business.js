@@ -4,7 +4,7 @@ import Foundation from './Foundation/Foundation';
 export default {
 	name: 'Business',
 	components: {
-		BusinessSlider,
 		Foundation,
+		BusinessSlider,
 	},
 };

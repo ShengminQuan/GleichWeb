@@ -22,6 +22,10 @@
 			left: 0;
 			top: 0;
 		}
+
+		@include respond-to(SMALL) {
+			display: none;
+		}
 	}
 
 	.tab-name {
@@ -82,12 +86,21 @@
 	.tab-content {
 		width: calc(100% - 245px);
 		overflow: hidden;
+
+		@include respond-to(SMALL) {
+			width: 100%;
+		}
 	}
 
 	.swiper-content {
 		.subtitle {
 			display: block;
 			font-size: 16px;
+
+			@include respond-to(SMALL) {
+				padding: 0 40px;
+				text-align: center;
+			}
 		}
 
 		.dotLine {
@@ -107,24 +120,34 @@
 				left: 0;
 				top: -4px;
 				border-radius: 100%;
+
+				@include respond-to(SMALL) {
+					left: 38px;
+				}
 			}
 		}
 
 		.content {
 			max-width: 514px;
-
-			img {
-				margin-bottom: 20px;
-			}
-
 			margin-top: 20px;
 			font-size: pxTorem(12px);
 			line-height: (18 / 12);
+			img {
+				margin-bottom: 20px;
+				max-width: 100%;
+			}
+
+			@include respond-to(SMALL) {
+				margin-left: auto;
+				margin-right: auto;
+				padding: 0 40px;
+				max-width: none;
+			}
 		}
 	}
 
 	.foundation-pagination {
-		@media (min-width: 768px) {
+		@include respond-to(ONLY-BIG) {
 			display: none;
 		}
 	}
@@ -133,6 +156,10 @@
 		background: url('asset/image/foundation-bg.jpg') no-repeat center center / cover;
 		padding: 40px;
 		border-radius: 5px;
+
+		@include respond-to(SMALL) {
+			padding: 40px 0;
+		}
 	}
 
 	.foundation-slider :global(.swiper-slide) {

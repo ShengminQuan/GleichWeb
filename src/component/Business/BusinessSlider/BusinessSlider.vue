@@ -4,7 +4,7 @@
 <template>
 	<div>
 		<div :class="$style.sliderWrap" class="main-container">
-			<swiper :options="swiperOption" :class="$style.newsSlider">
+			<swiper :options="swiperOption" :not-next-tick="notNextTick" ref="businessSwiper">
 				<swiper-slide>
 					<div :class="$style.content">
 						<h2>商业抵押贷款</h2>

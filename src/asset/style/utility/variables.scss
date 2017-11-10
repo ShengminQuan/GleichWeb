@@ -17,4 +17,4 @@ $headerHeight: $gridSize * 4;
 $mainContainerSize: 940px;
 $mainTextWidth: 700px;
 
-$mediaQueries: ('X_SMALL': '(max-width: 374px)');
+$mediaQueries: ('X_SMALL': '(max-width: 374px)', 'SMALL': '(max-width: 767px)', 'ONLY-BIG': '(min-width: 768px)');

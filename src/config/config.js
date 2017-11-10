@@ -28,6 +28,7 @@ const config = {
 		[VariableNames.VERSIONED_STATIC_ROOT]: process.env.VERSIONED_STATIC_ROOT,
 		[VariableNames.STATIC_ROOT]: process.env.STATIC_ROOT,
 		[VariableNames.PUBLIC_PATH]: process.env.PUBLIC_PATH,
+		[VariableNames.BOUNDARY_MOBILE_DESKTOP]: 767,
 	},
 	urls: {
 		[URLNames.LOCALE]: `${process.env.VERSIONED_STATIC_ROOT}locale/{locale}.json`,

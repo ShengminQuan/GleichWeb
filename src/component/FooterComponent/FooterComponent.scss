@@ -40,5 +40,10 @@
 	.list {
 		width: 50%;
 		float: left;
+
+		@include respond-to(SMALL) {
+			width: 100%;
+			margin-bottom: 20px;
+		}
 	}
 }

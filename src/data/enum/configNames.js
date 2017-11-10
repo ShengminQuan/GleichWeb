@@ -17,6 +17,7 @@ export const VariableNames = {
 	STATIC_ROOT: 'static-root',
 	PUBLIC_PATH: 'public-path',
 	VERSIONED_STATIC_ROOT: 'versioned-static-root',
+	BOUNDARY_MOBILE_DESKTOP: 'boundary-mobile-desktop',
 };
 
 export const PropertyNames = {

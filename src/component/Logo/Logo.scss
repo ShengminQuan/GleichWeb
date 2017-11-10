@@ -5,5 +5,12 @@
 		span {
 			display: block;
 		}
+
+		@include respond-to(SMALL) {
+			svg {
+				height: 37px;
+				margin: 0 auto;
+			}
+		}
 	}
 }

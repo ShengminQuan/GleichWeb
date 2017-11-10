@@ -8,6 +8,10 @@
 		width: 456px;
 		overflow: hidden;
 		position: relative;
+
+		@include respond-to(SMALL) {
+			width: 100%;
+		}
 	}
 
 	.nav-active-background {
@@ -19,6 +23,10 @@
 		position: absolute;
 		z-index: 1;
 		transition: left 0.5s;
+
+		@include respond-to(SMALL) {
+			width: 33.3%;
+		}
 
 		&:after {
 			content: '';
@@ -40,7 +48,7 @@
 		font-size: pxTorem(16px);
 		height: 80px;
 		line-height: 80px;
-		width: 150px;
+		width: calc(33.33% - 2px);
 		float: left;
 		background: rgba(95, 68, 3, 0.5);
 		text-align: center;
@@ -62,6 +70,10 @@
 	.tab-content {
 		min-height: 460px;
 		padding: 30px 0;
+
+		@media (max-width: 939px) {
+			padding: 30px 40px;
+		}
 	}
 
 	.tab-item {
@@ -74,144 +86,120 @@
 	}
 
 	.team {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
 		width: 100%;
-	}
 
-	.member {
-		width: 33.3%;
-		margin-left: 20px;
-		border-radius: 5px;
-		overflow-y: scroll;
-
-		&:first-child {
-			margin-left: 0;
-		}
-	}
-
-	.member-pic {
-		padding-bottom: 80%;
-		position: relative;
-		overflow: hidden;
-
-		img {
-			position: absolute;
-			left: 0;
-			top: 0;
-			min-width: 100%;
-			min-height: 100%;
-		}
-	}
-
-	.member-info {
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		background: url('asset/image/name-tag-bg.png') no-repeat center center / cover;
-		padding: 5px 10px;
-		line-height: 18px;
-	}
-
-	.member-name {
-		font-size: pxTorem(15px);
-		display: block;
-	}
-
-	.member-title {
-		display: block;
-		font-size: pxTorem(12px);
-	}
-
-	.member-desc {
-		p {
-			padding: 10px;
-			background-color: $colorLightGrey;
-			font-size: pxTorem(12px);
-			color: $colorDarkGrey;
-			line-height: (18 / 12);
-			height: 200px;
+		@include respond-to(SMALL) {
 			overflow: hidden;
 		}
 	}
-}
 
-.about {
-	width: 100%;
-}
+	@include respond-to(SMALL) {
+		.team :global(.swiper-container) {
+			overflow: visible;
+		}
 
-.about-nav {
-	width: 450px;
-	margin: 0 auto;
-}
+		.team :global(.swiper-slide) {
+			opacity: 0.6;
+		}
 
-.about-nav-item {
-	width: 150px;
-	text-align: center;
-	float: left;
-	opacity: 0.6;
-	transition: opcity 0.5s;
-
-	img {
-		display: block;
-		margin: 10px auto;
-		height: 60px;
-		transition: transform 0.5s;
+		.team :global(.swiper-slide-active) {
+			opacity: 1;
+		}
 	}
 
-	&.active {
-		opacity: 1;
+	@include respond-to(ONLY-BIG) {
+		.team :global(.swiper-pagination) {
+			display: none;
+		}
+	}
+	.about {
+		width: 100%;
+	}
+
+	.about-nav {
+		max-width: 450px;
+		width: 100%;
+		margin: 0 auto;
+
+		@include respond-to(SMALL) {
+			padding: 0 50px;
+		}
+	}
+
+	.about-nav-item {
+		width: 33.33%;
+		text-align: center;
+		float: left;
+		opacity: 0.6;
+		transition: opcity 0.5s;
+		margin-bottom: 15px;
 
 		img {
-			transform: scale(1.2);
-		}
-	}
-}
+			display: block;
+			margin: 10px auto;
+			height: 60px;
+			transition: transform 0.5s;
 
-.about-nav-bar {
-	height: 0;
-	float: left;
-	width: 300px;
-	margin-left: 75px;
-	margin-top: 15px;
-	border-bottom: 3px solid #aa957b;
-	position: relative;
-
-	i {
-		border-radius: 100%;
-		background: $colorPrimary;
-		display: block;
-		width: 10px;
-		height: 10px;
-		position: absolute;
-		left: 0;
-		top: -5px;
-
-		& + i {
-			left: calc(50% - 5px);
-		}
-
-		& + i + i {
-			left: auto;
-			right: -5px;
+			@include respond-to(SMALL) {
+				height: 40px;
+			}
 		}
 
 		&.active {
-			transform: scale(1.5);
+			opacity: 1;
+
+			img {
+				transform: scale(1.2);
+			}
 		}
 	}
-}
 
-.about-content {
-	padding-top: 30px;
-	text-align: center;
-	max-width: 600px;
-	margin: 0 auto;
-}
+	.about-nav-bar {
+		clear: both;
+		height: 0;
+		width: 66.66%;
+		margin: 15px auto;
+		border-bottom: 3px solid #aa957b;
+		position: relative;
 
-.about-content-text {
-	font-size: pxTorem(14px);
-	line-height: (24 / 14);
+		i {
+			border-radius: 100%;
+			background: $colorPrimary;
+			display: block;
+			width: 10px;
+			height: 10px;
+			position: absolute;
+			left: 0;
+			top: -5px;
+
+			& + i {
+				left: calc(50% - 5px);
+			}
+
+			& + i + i {
+				left: auto;
+				right: -5px;
+			}
+
+			&.active {
+				transform: scale(1.5);
+			}
+		}
+	}
+
+	.about-content {
+		padding-top: 30px;
+		text-align: center;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.about-content-text {
+		font-size: pxTorem(14px);
+		line-height: (24 / 14);
+
+		@include respond-to(SMALL) {
+			padding: 0 50px;
+		}
+	}
 }

@@ -1,6 +1,5 @@
 :local {
 	.header {
-		background-color: $colorTertiary;
 		overflow: hidden;
 		height: 80px;
 		position: fixed;
@@ -8,6 +7,73 @@
 		left: 0;
 		top: 0;
 		z-index: 9;
+
+		@include respond-to(SMALL) {
+			height: auto;
+		}
+	}
+
+	.main-menu {
+		background-color: $colorTertiary;
+	}
+
+	.wrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.burger {
+		padding: 18px;
+		width: 75px;
+
+		span {
+			height: 3px;
+			border-radius: 3px;
+			background-color: $colorLightGrey;
+			width: 25px;
+			display: block;
+			position: relative;
+
+			&:after,
+			&:before {
+				content: '';
+				width: 25px;
+				height: 3px;
+				border-radius: 3px;
+				background-color: $colorLightGrey;
+				display: block;
+				position: absolute;
+				left: 0;
+			}
+
+			&:before {
+				top: -8px;
+				transition: top 0.2s ease 0.2s, transform 0.2s ease 0s;
+			}
+
+			&:after {
+				bottom: -8px;
+				transition: bottom 0.2s ease 0.2s, transform 0.2s ease 0s;
+			}
+		}
+
+		&.open {
+			span {
+				&:before {
+					top: 0;
+					transform: rotate(-45deg);
+					transition: top 0.2s ease 0s, transform 0.2s ease 0.2s;
+				}
+
+				&:after {
+					bottom: 0;
+					transform: rotate(45deg);
+					transition: bottom 0.2s ease 0s, transform 0.2s ease 0.2s;
+				}
+			}
+		}
 	}
 
 	.item {
@@ -24,6 +90,10 @@
 			height: 100%;
 			display: block;
 			cursor: pointer;
+		}
+
+		@include respond-to(SMALL) {
+			line-height: 53px;
 		}
 	}
 
@@ -45,6 +115,44 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		height: 80px;
+		height: 100%;
+
+		@include respond-to(SMALL) {
+			width: 35%;
+		}
+	}
+	@include respond-to(SMALL) {
+		.switcher {
+			width: 75px;
+			font-size: pxTorem(14px);
+		}
+	}
+
+	.submenu {
+		width: 100%;
+		background-color: rgba(49, 40, 40, 0.95);
+		color: $colorLightGrey;
+		height: 0;
+		overflow: hidden;
+		transition: all 0.5s;
+
+		p {
+			line-height: 24px;
+			font-size: 18px;
+			padding: 15px 0;
+			text-align: center;
+
+			&:first-child {
+				padding-top: 35px;
+			}
+
+			&:last-child {
+				padding-bottom: 35px;
+			}
+		}
+
+		&.open {
+			height: 256px;
+		}
 	}
 }

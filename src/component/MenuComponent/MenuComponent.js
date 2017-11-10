@@ -7,4 +7,14 @@ export default {
 		Logo,
 		LanguageSwitcher,
 	},
+	data() {
+		return {
+			shownSubMenu: false,
+		};
+	},
+	methods: {
+		switchSubMneu() {
+			this.shownSubMenu = !this.shownSubMenu;
+		},
+	},
 };

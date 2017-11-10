@@ -11,7 +11,7 @@
 					<b>Gleich Pty Ltd</b>
 					Suite 1322 Citigroup, 2 Park Street, Sydney NSW 2000, Australia
 				</p>
-				<a href="#">info@gleich.com.au</a>
+				<a href="mailto:info@gleich.com.au">info@gleich.com.au</a>
 			</div>
 		</div>
 		<ContactMap />

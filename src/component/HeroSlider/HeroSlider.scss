@@ -3,10 +3,18 @@
 		height: 685px;
 		text-align: center;
 		color: $colorLightGrey;
+
+		@include respond-to(SMALL) {
+			height: 580px;
+		}
 	}
 
 	.slider-content {
 		max-width: $mainTextWidth;
+
+		@include respond-to(SMALL) {
+			padding: 0 50px;
+		}
 
 		i {
 			vertical-align: middle;
@@ -16,6 +24,10 @@
 		p {
 			font-size: pxTorem(14px);
 			line-height: (24 / 14);
+
+			@include respond-to(SMALL) {
+				font-size: pxTorem(12px);
+			}
 		}
 	}
 

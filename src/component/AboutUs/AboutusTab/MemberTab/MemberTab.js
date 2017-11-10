@@ -1,20 +1,20 @@
 import { swiper, swiperSlide } from 'vue-awesome-swiper';
-import { getValue } from 'util/injector';
 import debounce from 'lodash/debounce';
-import { CONFIG_MANAGER } from '../../../data/Injectables';
-import { VariableNames } from '../../../data/enum/configNames';
+import { getValue } from 'util/injector';
+import { CONFIG_MANAGER } from '../../../../data/Injectables';
+import { VariableNames } from '../../../../data/enum/configNames';
 
 require('swiper/dist/css/swiper.css');
 
 export default {
-	name: 'BusinessSlider',
+	name: 'MemberTab',
 	components: {
 		swiper,
 		swiperSlide,
 	},
 	computed: {
 		swiper() {
-			return this.$refs.businessSwiper.swiper;
+			return this.$refs.memberSwiper.swiper;
 		},
 	},
 	watch: {
