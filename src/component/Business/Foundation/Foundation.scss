@@ -132,6 +132,8 @@
 			margin-top: 20px;
 			font-size: pxTorem(12px);
 			line-height: (18 / 12);
+			padding-right: 40px;
+
 			img {
 				margin-bottom: 20px;
 				max-width: 100%;
@@ -142,6 +144,10 @@
 				margin-right: auto;
 				padding: 0 40px;
 				max-width: none;
+
+				img {
+					width: 100%;
+				}
 			}
 		}
 	}

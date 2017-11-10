@@ -54,7 +54,7 @@ const startUp = store => {
 	// Add async methods to the Promise.all array
 	return sequentialPromises([
 		() => (configManager.getVariable(VariableNames.LOCALE_ENABLED) ? waitForLocale(store) : Promise.resolve()),
-		() => store.dispatch(NewsMutationTypes.LOAD_NEWS_DATA),
+		// () => store.dispatch(NewsMutationTypes.LOAD_NEWS_DATA),
 	]);
 };
 
