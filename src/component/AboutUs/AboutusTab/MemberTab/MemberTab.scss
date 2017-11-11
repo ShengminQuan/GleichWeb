@@ -42,15 +42,20 @@
 	}
 
 	.member-desc {
-		p {
-			padding: 10px;
+		padding: 10px 0;
+		background-color: $colorLightGrey;
+
+		.scroll-wrap {
+			height: 200px;
+			padding: 0 10px;
 			background-color: $colorLightGrey;
+		}
+
+		p {
 			font-size: pxTorem(12px);
 			color: $colorDarkGrey;
 			line-height: (18 / 12);
-			height: 200px;
-			overflow-x: hidden;
-			overflow-y: scroll;
+			height: 250px;
 		}
 	}
 

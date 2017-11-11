@@ -13,7 +13,12 @@
 					</div>
 				</div>
 				<div :class="$style.memberDesc">
-					<p>{{ $t('about_us_tab.item_2.member_1.desc') }}</p>
+					<vue-scrollbar :class="$style.scrollWrap" ref="Scrollbar">
+						<div :class="$style.scrollContent">
+							<p v-html="$t('about_us_tab.item_2.member_1.desc')"></p>
+							<div class="clearfix"></div>
+						</div>
+					</vue-scrollbar>
 				</div>
 			</swiper-slide>
 
@@ -26,7 +31,12 @@
 					</div>
 				</div>
 				<div :class="$style.memberDesc">
-					<p>{{ $t('about_us_tab.item_2.member_2.desc') }}</p>
+					<vue-scrollbar :class="$style.scrollWrap" ref="Scrollbar">
+						<div :class="$style.scrollContent">
+							<p v-html="$t('about_us_tab.item_2.member_2.desc')"></p>
+							<div class="clearfix"></div>
+						</div>
+					</vue-scrollbar>
 				</div>
 			</swiper-slide>
 
@@ -39,7 +49,12 @@
 					</div>
 				</div>
 				<div :class="$style.memberDesc">
-					<p>{{ $t('about_us_tab.item_2.member_3.desc') }}</p>
+					<vue-scrollbar :class="$style.scrollWrap" ref="Scrollbar">
+						<div :class="$style.scrollContent">
+							<p v-html="$t('about_us_tab.item_2.member_3.desc')"></p>
+							<div class="clearfix"></div>
+						</div>
+					</vue-scrollbar>
 				</div>
 			</swiper-slide>
 			<div class="swiper-pagination" slot="pagination"></div>
