@@ -1,5 +1,7 @@
 import { swiper, swiperSlide } from 'vue-awesome-swiper';
 import debounce from 'lodash/debounce';
+import { mapState, mapActions } from 'vuex';
+import { UserInterfaceMutationTypes } from '../../../store/module/userInterface/index';
 
 require('swiper/dist/css/swiper.css');
 
@@ -10,6 +12,7 @@ export default {
 		swiperSlide,
 	},
 	computed: {
+		...mapState('userInterface', ['foundationActiveItem']),
 		swiperOption() {
 			return {
 				pagination: '.swiper-pagination',
@@ -24,6 +27,11 @@ export default {
 		},
 		swiper() {
 			return this.$refs.foundationSwiper.swiper;
+		},
+	},
+	watch: {
+		foundationActiveItem() {
+			this.currentSlider = this.foundationActiveItem;
 		},
 	},
 	data() {
@@ -50,7 +58,6 @@ export default {
 				this.swiperContentWidth = width;
 			}
 			this.paddingLeft = window.innerWidth > 940 ? (window.innerWidth - 940) / 2 : 0;
-			console.log(this.swiperContentWidth);
 		},
 		resizeSlider() {
 			this.swiper.params.width = this.swiperContentWidth;

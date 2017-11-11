@@ -1,83 +1,96 @@
 {
   "hero_slider": {
 	"slider_1": {
-	  "title_1": "诚信为本",
-	  "title_2": "专业服务",
-	  "desc": "得益于团队对澳洲金融行业的深刻理解，Gleich以顺应市场的理念和专业的服务态度，专注于澳洲的信贷市场，提供风险可控、回报可期的金融产品，为中国投资者的海外资产配置创造价值。通过公司平台，希望在可预见的未来，我们的员工、投资者、股东之间能够互相信任，平等合作，实现多方共赢、一同发展。"
+	  "title_1": "Partner with Integrity",
+	  "title_2": "Serve with perfection",
+	  "desc": "Owing to deep understanding to Australia finance industry, Gleich focus on Australian credit market to provide risk-controllable and return-expectable finance products which helps Chinese to make value for their oversea asset allocation.Throughout Gleich platform, we believe that we could trust each other, collaborate equally to multi-win and grow together among our employee, investor and share-holder in foreseeable future."
 	}
   },
   "about_us": {
-	"title": "关于Gleich",
-	"desc": "Gleich源自德文，意思为相同，平等，代表着价值共享，互惠互利的公司信念。也可释义为迅捷，代表着公司专业精准的服务品质和强大的执行力。"
+	"title": "About Gleich",
+	"desc": "The Word ‘Gleich’ originated from German which means same or equal. It represents the value of sharing, mutual benefit of the company faith. Also Gleich means “immediately” which presents our quality of service with professional & accuracy and the ability of powerful execution."
   },
   "about_us_tab": {
-	"nav_1": "关于 Gleich",
+	"nav_1": "About Gleich",
 	"item_1": {
-	  "name_1": "专业",
-	  "desc_1": "Gleich 配备各类金融专业人才，专注于每一个项目的获取与风险评估。公司与数家澳洲的小型精品金融机构建立了良好的联系，确保了项目的高品质与稀缺性。公司指定了专业的基金律师与审计行，确保项目的操作流程、法律风险以及对投资者信息的公开透明。",
-	  "name_2": "诚信",
-	  "desc_2": "诚信为本，是Gleich 团队的首要共识及处世准则。在金融市场的漫长历史中，诚信风险是导致各类重大危机的根源所在。我们坚信公司与投资者之间，以及团队内部都应做到以诚相待，只做正确的事情，才能确保公司有长期的发展。",
-	  "name_3": "关系",
-	  "desc_3": "Gleich 坚信投资者与公司团队的各种紧密的信任关系是长期发展的基石。公司对产品的跟投体系将确保投资者的利益的风险与公司团队高度捆绑，共同进退。公司还可为投资者提供澳洲的投资、置业顾问服务，确保投资者的安居乐业。"
+	  "name_1": "Professional",
+	  "desc_1": "Gleich team is formed by various financial professionals and specialized on each projects and its risk evaluation. We have good alliance with some small but unique finance institution to make sure the high quality and scarcity of the project. Gleich has designated a professional fund lawyer and audit firm to ensure the right procedure and compliance as well as the transparency to the investors.",
+	  "name_2": "Integrity",
+	  "desc_2": "Integrity is a fundamental to Gleich people as primary consensus and guideline of life. In the long history of financial markets, all kinds of major crises were caused by integrity issue. We firmly believe that between the company and investors, as well as the team should be honest to each other, only doing right thing is to ensure that the company has long-term development.",
+	  "name_3": "Connection",
+	  "desc_3": "Gleich firmly believe that the trust between the investors and us is the cornerstone for our “build to last”.<Br>We provide the bundle-investment system product to some new customer to share the risk, benefit and success.In addition, Gleich offer value-added service to the customer for their other investment, buying property and smooth settle down."
 	},
-	"nav_2": "团队",
+	"nav_2": "Our Team",
 	"item_2": {
 	  "member_1": {
 		"name": "Warren Muller",
-		"title": "基金经理",
-		"desc": "Warren Muller拥有开普敦大学的商学与会计学位，同时也是南非的注册会计师。作为公司的基金经理，拥有超过25年金融机构CFO的经验。他尤其擅长并购重组、资产管理等领域。加入Gleich之前，Warren是澳洲金融公司Mariner Financial的高管，负责管理超过12亿澳元的资产。他经常负责项目的审计团队及金融技术团队，对ASIC与ASX的监管等要求有丰富的知识与经验。"
+		"title": "Responsible Manager",
+		"desc": "Warren Muller, Gleich responsible manager. He has over 25 years of experience in financial industry, and was was part of the senior management team of Mariner Financial which managed $1.2 billion or real estate and infrastructure assets. His specialities include asset management, asset wind downs, acquisitions etc.<Br>Warren has extensive experience in corporate governance, strategy, project management, compliance and change management. He is a regular member of audit committees and financial technical advisory teams, and has extensive knowledge and experience of ASIC and ASX compliance and reporting requirements.<br>Warren holds a Bachelor of Commerce and a Graduate Diploma in Accounting from the University of Cape Town, and is a Chartered Accountant with the South African Institute of Chartered Accountants."
 	  },
 	  "member_2": {
-		"name": "Bright Zhou 周少明",
-		"title": "运营负责人",
-		"desc": "公司目前的运营负责人。Bright上世纪九十年代即在多个外企及世界500强担任高管，例如思科（Cisco 华南区销售总监)和微软（Microsoft大中华区员工内训总监、合作伙伴总监和战略投资者团队总监等）。他拥有杰出的大局观以及精细化的管理能力，确保公司的稳健运行。移民澳洲后，Bright曾担任澳洲的知名咨询公司ASK Solution的高级顾问。"
+		"name": "Bright Zhou",
+		"title": "Operational Manager",
+		"desc": "Bright Zhou, Current Operational manager and Compliance Officer. Bright held some management positions in Globe T100 companies since 1990’s, such as Sales director of Cisco South China, Readiness Director, Partner & Alliance Director and Strategic customer Director of Microsoft Greater China Region. With his outstanding strategic vision and accurate process control, he is leading company grow up smoothly and successfully. Bright also play the role as senior consultant in Australia consulting firm ASK Solution since he immigrated to Australia in 2001.<Br>Bright graduated from Huazhong University of Science and Technology and post-graduate in Southwest Jiaotong University."
 	  },
 	  "member_3": {
 		"name": "Michael Ivkovi",
-		"title": "基金经理",
-		"desc": "作为老牌的澳洲银行家，Michael Ivkovic在结构金融，基金管理和投资银行业务都拥有充分的经验与人脉。他曾担任Brick资产的董事长与NZI资产的执行董事长。1988年他创立了Australian Private Capital Advisory Services Group，在1998年通过管理层收购退出。他还是Paramount资产的董事，以及数家澳洲上市公司Harrington Limited, AFT Limited, Meridien Resources Limited, Meridien Capital Limited and Capital Mining Limited的董事。"
+		"title": "Head of Investment Committee",
+		"desc": "Michael Ivkovic has extensive experience in the funds management, structured finance, and investment banking industry in Australia and Asia.<Br>Michael was formerly the Chairman of Brick Securities Limited, and Executive Chairman of NZI Securities Limited. Michael established The Australian Private Capital Advisory Services Group in 1988 and retired from that position in 1998 following a management buyout. Since that time Michael has served as a Director of Paramount Securities Limited and the publicly listed Harrington Limited, AFT Limited, Meridien Resources Limited, Meridien Capital Limited and Capital Mining Limited.<br>Michael holds a Bachelor of Commerce degree from the University of New South Wales."
 	  }
 	},
-	"nav_3": "业务准则",
-	"item_3": "1. 真诚、平等对待每一位投资者，用心提供服务<Br>2. 向投资者清楚解释产品的特点与潜在风险，明确所有的费用标准，披露所有潜在的利益冲突<Br>3. 严守投资者的隐私信息<br>4. 所有的文件由专业律师完成，符合澳洲本地法律<Br>5. 公司团队积极参与跟投项目，与投资者共担风险"
+	"nav_3": "Code of Conduct",
+	"item_3": "1. Treat all Customers with sincere and equality.  Serve them with heart and soul.<Br>2. Clearly and accurately explain the features and potential risks of the product to the customer. Identify all costs to the Customer(s) that are associated with the transaction. Avoiding and/or disclosing any real or perceived conflicts of interest.<Br>3. Preserving client confidentiality at all times<Br>4. Ensure that all contracts are written to comply with Australian Consumer Law and the consumer protection provisions of any other relevant Legislation, Regulation or Code and ensure compliance, where applicable.<Br>5. Gleich team is ready to participate in bundled projects for sharing risk with our customers."
   },
   "business": {
-	"desc": "作为新成立的公司，Gleich的核心团队由金融行业的精英组成，合计超过80年的行业经验，深刻理解澳洲金融，尤其是信贷市场的运作与规律，以及中国投资者的海外资产配置的诉求。",
-	"title_1": "Gleich 信贷基金",
-	"desc_1": "Gleich 信贷基金旨在向投资者提供进入澳大利亚信贷市场的机会。基金专注于中/低风险的投资机会 (通过商业地产抵押贷款), 注重于投资者的资本保值以及合理的固定收益。",
-	"title_2": "Gleich 信贷业务",
-	"desc_2": "Gleich信贷业务专注于商业抵押贷款，为客户的资金需求提供快速有效的融资解决方案。",
+	"desc": "Gleich core team formed by elites from finance industry which over 80 years experience in the market. We understand Australia finance especially the operation and know-how of credit market and the requirements of Chinese oversea asset allocation.",
+	"title_1": "Gleich Mortgage Fund",
+	"desc_1": "Gleich Credit fund is aimed to provide the investor a chance to Australian credit market. The Fund focus on the medium/low-risk investment (majorly through commercial property mortgage) to ensure investor’s capital preservation and reasonable interest payment.",
+	"title_2": "Gleich Lending",
+	"desc_2": "Gleich lending is focus on commercial mortgage to provide the borrowers a quick, effective financing solution.",
 	"foundation": {
-	  "name": "信贷基金",
+	  "name": "Mortgage Fund",
 	  "item_1": {
-		"name": "基金概要",
-		"desc": "Gleich信贷基金主要投资住宅、工业及商业地产抵押贷款，主要的收入来源为借贷者所付利息。借贷者为各类房产开发商，及拥有物业的商业公司。作为投资者作为地产物业的第一抵押权方，确保资金的安全性。相比银行存款，投资者会获得更高的利息收入。"
+		"name": "Introduction",
+		"desc": "Gleich Credit Fund is mainly used to invest residential, industry and commercial real estate mortgages. The major gains are the interest paid by the borrowers who are all kinds of real estate developers and the commercial company with properties. The investor will be the first mortgage owner which means the investment more secure.  Compared to bank time deposits, the investor could get the higher interest income."
 	  },
 	  "item_2": {
-		"name": "合规投资者",
-		"desc": "根据澳洲法律规定，本基金只针对大额投资者（wholesale investor），及成熟投资者（sophisticated investor）<Br>大额投资者 - 单笔投资金额达到50万澳元。<Br>成熟投资者 - ASIC规定，申请前两年中任意一年收入达25万澳元的，或个人净资产超过250万澳元的投资者在通过会计认证后可成为成熟投资者。"
+		"name": "Investor",
+		"desc": "Under Australian laws and regulation, Gleich funds only for wholesale investor and sophisticated investor.<br><br><hr><br><span style='color: #E6CB8B'>Wholesale investor</span> - Single investment over 500K AUD<br><span style='color: #E6CB8B'>Sophisticated investor</span> - According to ASIC regulation, the investors annual income is up to 250,000 AUD in any of last two years. Or personal net assets are over 2.5 million AUD certified by accountant will be considered as sophisticated investor."
 	  },
 	  "item_3": {
-		"name": "产品特点",
-		"desc": "1. 出借资金有抵押 - 出借资金都将注册为第一债权人，借贷比例不超过第三方专业评估机构提供的资产评估金额的70%，确保出借资金的安全性。<Br>2. 出借流程完善 - 经验丰富的风控团队设计了专业的出借流程，并严格执行。流程包括了成熟的信息网络、风险控制、法务准备及整体的流程监控。<Br>3. 回报出众 - 投资收益的期望值目标通常为澳大利亚央行现金利率加5%，回报超过了银行的存款。"
+		"name": "Product Feature",
+		"desc": "1. Mortgage Investment with securities- the loan has been registered as 1st mortgage and LVR no more than 70% with 3rd party valuation to ensure the security of investment<br>2. Lending Process with great care- benefit the extensive experience of core credit team, the whole investment process has been carefully designed and executed, including mature referral channel, risk management, legal preparation and the administration process.<br>3. Better Returns - the return of the investment normally will be targeted as the RBA cash rate + 5%, which is better than the deposits of bank account."
 	  },
 	  "item_4": {
-		"name": "投资风险",
-		"desc": "任何形式的投资都伴随相应的风险。澳洲政府保证投资者和回报<br>如果您希望了解更多相关的投资信息，请把您的需求发送给我们,我们将第一时间回复<br><br>info@gleich.com.au"
+		"name": "Risk",
+		"desc": "All kind of investments carry corresponding risk<Br>Australian Government protects consumers against misleading or deceptive and unconscionable conduct affecting all financial products and services. If you need know more information regarding our product, with the gain and risk, please email us, our investor consultant will contact you for providing corresponding product Information Memorandum."
 	  }
 	},
 	"business": {
-	  "name_1": "商业抵押贷款",
-	  "name_2": "商业次级抵押贷款",
-	  "name_3": "可转债",
-	  "desc_1": "如果客户的商业公司需要购买资产或者现金流或者其他的商业投资，我们均可通过商业抵押贷款向客户提供资金。根据资产评估的价值，我们可提供不超过70%的资产价值的贷款，并注册为抵押资产的第一债权人。在获得公允评估价值后通常5-7个工作日可提供资金。",
-	  "desc_2": "在抵押物业已有银行贷款（或其他债权人）的基础上，如果顾客希望获得更多的资金用于投资商业地产或者扩大生意规模，我们可提供商业次级抵押贷款。",
-	  "desc_3": "如果顾客的初创公司需要融资，却没有足够的资产抵押，我们在充分评估顾客公司的行业类型及发展潜力后可提供现金流融资。如果在融资期结束后顾客无法按期偿还债务，则可按照约定价格将部分或者全部债权转化为相应的公司股份。"
+	  "name_1": "Commercial Loan First Mortgage",
+	  "name_2": "Commercial Loan Second Mortgage",
+	  "name_3": "Convertible loan",
+	  "desc_1": "A commercial business loan is secured funding provided to a business for any commercial or investment purpose. It may be for a commercial premises or it may be cash-flow for the business operations. This product could lend up to 70% of the security value as 1st mortgagee. Normally it takes5 - 7 business days for funds ready.",
+	  "desc_2": "This product is designed for the client who look for a way to leverage off current commercial property. By using current property (with an existing mortgage) as security for another loan, the client can acquire more funds to purchase that 2nd commercial property or expand business.",
+	  "desc_3": "Convertible loan is a short-term debt that may converts into equity. Usually it converts at the next investment round. We will assist people for new business idea by providing convertible loans."
 	}
   },
   "contact_us": {
-	"title": "联系我们",
+	"title": "Contact Us",
 	"company": "Gleich Pty Ltd",
 	"address": "Suite 1322 Citigroup, 2 Park Street, Sydney NSW 2000, Australia"
+  },
+  "nav": {
+	"about_us": "About Gleich",
+	"fund": "Mortgage Fund",
+	"lending": "Lending",
+	"contact_us": "Contact Us",
+	"fund_1": "Introduction",
+	"fund_2": "Investor",
+	"fund_3": "Product Feature",
+	"fund_4": "Risk",
+	"lending_1": "Commercial Loan First Mortgage",
+	"lending_2": "Commercial Loan Second Mortgage",
+	"lending_3": "Convertible Loan"
   }
 }

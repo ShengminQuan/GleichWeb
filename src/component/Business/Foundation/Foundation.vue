@@ -28,7 +28,7 @@
 							<span :class="$style.subtitle">{{ $t('business.foundation.name') }} - {{ $t('business.foundation.item_1.name') }}</span>
 							<span :class="$style.dotLine"></span>
 							<div :class="$style.content">
-								<img src="~asset/image/foundation-1.jpg">
+								<img src="~asset/image/foundation_1.jpg">
 								<p v-html="$t('business.foundation.item_1.desc')"></p>
 							</div>
 						</div>
@@ -40,7 +40,7 @@
 							</span>
 							<span :class="$style.dotLine"></span>
 							<div :class="$style.content">
-								<img src="~asset/image/foundation-1.jpg">
+								<img src="~asset/image/foundation_2.jpg">
 								<p v-html="$t('business.foundation.item_2.desc')"></p>
 							</div>
 						</div>
@@ -52,7 +52,7 @@
 							</span>
 							<span :class="$style.dotLine"></span>
 							<div :class="$style.content">
-								<img src="~asset/image/foundation-1.jpg">
+								<img src="~asset/image/foundation_3.jpg">
 								<p v-html="$t('business.foundation.item_3.desc')"></p>
 							</div>
 						</div>
@@ -64,8 +64,9 @@
 							</span>
 							<span :class="$style.dotLine"></span>
 							<div :class="$style.content">
-								<img src="~asset/image/foundation-1.jpg">
+								<img src="~asset/image/foundation_4.jpg">
 								<p v-html="$t('business.foundation.item_4.desc')"></p>
+								<a href="mailto:info@gleich.com.au"><b>info@gleich.com.au</b></a>
 							</div>
 						</div>
 					</swiper-slide>

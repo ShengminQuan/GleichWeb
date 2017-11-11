@@ -1,8 +1,10 @@
 import { swiper, swiperSlide } from 'vue-awesome-swiper';
 import { getValue } from 'util/injector';
+import { mapState, mapActions } from 'vuex';
 import debounce from 'lodash/debounce';
 import { CONFIG_MANAGER } from '../../../data/Injectables';
 import { VariableNames } from '../../../data/enum/configNames';
+import { UserInterfaceMutationTypes } from '../../../store/module/userInterface/index';
 
 require('swiper/dist/css/swiper.css');
 
@@ -13,6 +15,7 @@ export default {
 		swiperSlide,
 	},
 	computed: {
+		...mapState('userInterface', ['businessActiveItem']),
 		swiper() {
 			return this.$refs.businessSwiper.swiper;
 		},
@@ -20,6 +23,9 @@ export default {
 	watch: {
 		swiperPreView() {
 			this.resizeSlider();
+		},
+		businessActiveItem() {
+			this.swiper.slideTo(this.businessActiveItem);
 		},
 	},
 	data() {

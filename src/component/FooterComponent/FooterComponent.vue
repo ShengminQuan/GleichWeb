@@ -6,25 +6,25 @@
 		<div :class="$style.container">
 			<div :class="$style.half">
 				<div :class="$style.list">
-					<h3 v-scroll-to="'#about-us'">关于 Gleich</h3>
+					<h3 v-scroll-to="'#about-us'">{{ $t('nav.about_us') }}</h3>
 				</div>
 				<div :class="$style.list">
-					<h3 v-scroll-to="'#foundation'">信贷基金</h3>
-					<p>基金概要</p>
-					<p>合规投资者</p>
-					<p>产品特点</p>
-					<p>投资风险</p>
+					<h3 v-scroll-to="'#foundation'">{{ $t('nav.fund') }}</h3>
+					<p v-scroll-to="'#foundation'" @click="handleFoundationActiveItem(0)">{{ $t('nav.fund_1') }}</p>
+					<p v-scroll-to="'#foundation'" @click="handleFoundationActiveItem(1)">{{ $t('nav.fund_2') }}</p>
+					<p v-scroll-to="'#foundation'" @click="handleFoundationActiveItem(2)">{{ $t('nav.fund_3') }}</p>
+					<p v-scroll-to="'#foundation'" @click="handleFoundationActiveItem(3)">{{ $t('nav.fund_4') }}</p>
 				</div>
 			</div>
 			<div :class="$style.half">
 				<div :class="$style.list">
-					<h3 v-scroll-to="'#business'">信贷业务</h3>
-					<p>商业抵押贷款</p>
-					<p>商业次级抵押贷款</p>
-					<p>可转债</p>
+					<h3 v-scroll-to="'#business'">{{ $t('nav.lending') }}</h3>
+					<p v-scroll-to="'#business'" @click="handleBusinessActiveItem(0)">{{ $t('nav.lending_1') }}</p>
+					<p v-scroll-to="'#business'" @click="handleBusinessActiveItem(1)">{{ $t('nav.lending_2') }}</p>
+					<p v-scroll-to="'#business'" @click="handleBusinessActiveItem(2)">{{ $t('nav.lending_3') }}</p>
 				</div>
 				<div :class="$style.list">
-					<h3 v-scroll-to="'#contact-us'">联系我们</h3>
+					<h3 v-scroll-to="'#contact-us'">{{ $t('nav.contact_us') }}</h3>
 				</div>
 			</div>
 		</div>
