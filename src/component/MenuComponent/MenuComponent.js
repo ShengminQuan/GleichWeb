@@ -46,5 +46,11 @@ export default {
 				this.handleScroll();
 			}, 400),
 		);
+		window.addEventListener(
+			'resize',
+			debounce(() => {
+				this.getOffset();
+			}, 400),
+		);
 	},
 };
