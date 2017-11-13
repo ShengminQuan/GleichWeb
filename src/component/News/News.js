@@ -1,14 +1,10 @@
 import { mapGetters } from 'vuex';
 import NewsItem from './NewsItem/NewsItem';
-import { swiper, swiperSlide } from 'vue-awesome-swiper';
-require('swiper/dist/css/swiper.css');
 
 export default {
 	name: 'News',
 	components: {
 		NewsItem,
-		swiper,
-		swiperSlide,
 	},
 	computed: {
 		...mapGetters('news', ['data']),
@@ -17,6 +13,7 @@ export default {
 		return {
 			swiperOption: {
 				pagination: '.swiper-pagination',
+				// eslint-disable-next-line
 				paginationBulletRender(swiper, index, className) {
 					return `<span class="${className} swiper-pagination-bullet-custom">${index + 1}</span>`;
 				},

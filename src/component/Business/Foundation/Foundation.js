@@ -1,16 +1,8 @@
-import { swiper, swiperSlide } from 'vue-awesome-swiper';
 import debounce from 'lodash/debounce';
-import { mapState, mapActions } from 'vuex';
-import { UserInterfaceMutationTypes } from '../../../store/module/userInterface/index';
-
-require('swiper/dist/css/swiper.css');
+import { mapState } from 'vuex';
 
 export default {
 	name: 'Foundation',
-	components: {
-		swiper,
-		swiperSlide,
-	},
 	computed: {
 		...mapState('userInterface', ['foundationActiveItem']),
 		swiperOption() {

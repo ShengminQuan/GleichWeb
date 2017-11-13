@@ -10,7 +10,6 @@ import sequentialPromises from 'util/sequentialPromises';
 import { getValue } from 'util/injector';
 import { CONFIG_MANAGER, GATEWAY } from 'data/Injectables';
 import localeLoader from 'util/localeLoader';
-import { NewsMutationTypes } from '../store/module/news';
 
 const initPlugins = () => {
 	const configManager = getValue(CONFIG_MANAGER);

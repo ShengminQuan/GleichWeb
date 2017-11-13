@@ -1,6 +1,6 @@
+import { debounce } from 'lodash';
 import Logo from '../Logo/Logo';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
-import { debounce } from 'lodash';
 
 export default {
 	name: 'MenuComponent',

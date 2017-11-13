@@ -1,4 +1,3 @@
-import { swiper, swiperSlide } from 'vue-awesome-swiper';
 import debounce from 'lodash/debounce';
 import { getValue } from 'util/injector';
 import VueScrollbar from 'vue2-scrollbar';
@@ -6,13 +5,10 @@ import { CONFIG_MANAGER } from '../../../../data/Injectables';
 import { VariableNames } from '../../../../data/enum/configNames';
 
 require('vue2-scrollbar/dist/style/vue2-scrollbar.css');
-require('swiper/dist/css/swiper.css');
 
 export default {
 	name: 'MemberTab',
 	components: {
-		swiper,
-		swiperSlide,
 		VueScrollbar,
 	},
 	computed: {

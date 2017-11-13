@@ -18,7 +18,7 @@ const webpackConfig = merge(baseWebpackConfig, {
 	module: {
 		rules: [
 			{
-				test: /\.scss$/,
+				test: /\.(scss|css)$/,
 				loader: ExtractTextPlugin.extract({
 					use: webpackHelpers.getScssLoaderConfig()
 				}),

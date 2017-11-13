@@ -5,6 +5,7 @@ import 'settings';
 import Vue from 'vue';
 import BaiduMap from 'vue-baidu-map';
 import VueScrollTo from 'vue-scrollto';
+import VueAwesomeSwiper from 'vue-awesome-swiper';
 import filter from 'filter';
 import directive from 'directive';
 import component from 'component';
@@ -59,6 +60,8 @@ Vue.use(VueScrollTo, {
 	x: false,
 	y: true,
 });
+
+Vue.use(VueAwesomeSwiper);
 
 // sync router data to store
 sync(store, router);
