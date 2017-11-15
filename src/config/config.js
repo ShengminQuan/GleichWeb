@@ -24,7 +24,7 @@ const config = {
 	},
 	variables: {
 		[VariableNames.LOCALE_ENABLED]: true,
-		[VariableNames.LOCALE_ROUTING_ENABLED]: true,
+		[VariableNames.LOCALE_ROUTING_ENABLED]: false,
 		[VariableNames.VERSIONED_STATIC_ROOT]: process.env.VERSIONED_STATIC_ROOT,
 		[VariableNames.STATIC_ROOT]: process.env.STATIC_ROOT,
 		[VariableNames.PUBLIC_PATH]: process.env.PUBLIC_PATH,
