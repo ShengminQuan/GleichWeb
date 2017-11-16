@@ -9,7 +9,8 @@
 				     @click="switchSubMneu"><span></span></div>
 				<div class="only-showing-desktop" :class="[$style.item, $style.topLine, activeItem == 1 ? $style.active : '']"><a href="#" v-scroll-to="'#about-us'">{{ $t('nav.about_us') }}</a></div>
 				<div class="only-showing-desktop" :class="[$style.item, $style.topLine, activeItem == 2 ? $style.active : '']"><a href="#" v-scroll-to="'#foundation'">{{ $t('nav.fund') }}</a></div>
-				<div :class="[$style.item, $style.logo]"><a href="#" :class=""><Logo name="logo"/></a></div>
+				<div
+					:class="[$style.item, $style.logo]"><a href="#" :class=""><img src="~asset/image/logo.png"></a></div>
 				<div class="only-showing-desktop" :class="[$style.item, $style.topLine, activeItem == 3 ? $style.active : '']"><a href="#" v-scroll-to="'#business'">{{ $t('nav.lending') }}</a></div>
 				<div :class="[$style.item, $style.switcher]"><LanguageSwitcher componentId="LanguageSwitcher" /></div>
 			</div>

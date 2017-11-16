@@ -44,14 +44,14 @@
 						</div>
 					</div>
 					<div :class="$style.aboutContent">
-						<p v-if="currentAboutItem == 0" :class="$style.aboutContentText">
-							{{ $t('about_us_tab.item_1.desc_1') }}
+						<p v-if="currentAboutItem == 0" :class="$style.aboutContentText"
+						   v-html="$t('about_us_tab.item_1.desc_1')">
 						</p>
-						<p v-if="currentAboutItem == 1" :class="$style.aboutContentText">
-							{{ $t('about_us_tab.item_1.desc_2') }}
+						<p v-if="currentAboutItem == 1" :class="$style.aboutContentText"
+						   v-html="$t('about_us_tab.item_1.desc_2')">
 						</p>
-						<p v-if="currentAboutItem == 2" :class="$style.aboutContentText">
-							{{ $t('about_us_tab.item_1.desc_3') }}
+						<p v-if="currentAboutItem == 2" :class="$style.aboutContentText"
+						   v-html="$t('about_us_tab.item_1.desc_3')">
 						</p>
 					</div>
 				</div>

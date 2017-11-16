@@ -92,5 +92,8 @@
 	"lending_1": "商业抵押贷款",
 	"lending_2": "商业次级抵押贷款",
 	"lending_3": "可转债"
+  },
+  "float_buttons": {
+	"contact_us": "联系<Br>我们"
   }
 }

@@ -31,22 +31,29 @@
 	.tab-name {
 		background: url('asset/image/foundation-black-bg.jpg') no-repeat center center / cover;
 		font-size: pxTorem(16px);
-		height: 20%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		text-align: center;
 		border-radius: 5px 5px 0 0;
 		overflow: hidden;
-		position: relative;
+		position: absolute;
+		height: 20%;
+		width: 100%;
+		left: 0;
+		top: 0;
 		z-index: 1;
 	}
 
 	.tab-nav-container {
 		display: flex;
-		height: 80%;
 		flex-direction: column;
 		justify-content: center;
+		position: absolute;
+		width: 100%;
+		height: 80%;
+		left: 0;
+		bottom: 0;
 	}
 
 	.tab-nav-content {

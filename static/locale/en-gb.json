@@ -92,5 +92,8 @@
 	"lending_1": "Commercial Loan First Mortgage",
 	"lending_2": "Commercial Loan Second Mortgage",
 	"lending_3": "Convertible Loan"
+  },
+  "float_buttons": {
+	"contact_us": "Contact<Br>Us"
   }
 }

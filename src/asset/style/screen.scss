@@ -118,3 +118,11 @@ a {
 		}
 	}
 }
+
+.vue-scrollbar__scrollbar-vertical .scrollbar {
+	width: 5px !important;
+	opacity: 0.5;
+}
+.vue-scrollbar__scrollbar-vertical {
+	width: 5px !important;
+}
