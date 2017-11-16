@@ -176,10 +176,12 @@
 	}
 
 	.foundation-slider :global(.swiper-slide) {
-		opacity: 0.6;
+		opacity: 0.3;
+		filter: blur(1px);
 	}
 
 	.foundation-slider :global(.swiper-slide-active) {
 		opacity: 1;
+		filter: blur(0px);
 	}
 }

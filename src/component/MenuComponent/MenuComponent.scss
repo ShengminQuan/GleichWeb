@@ -86,8 +86,6 @@
 
 		a {
 			text-decoration: none;
-			width: 100%;
-			height: 100%;
 			display: block;
 			cursor: pointer;
 		}
@@ -128,12 +126,12 @@
 		}
 
 		img {
-			vertical-align: middle;
 			max-height: 54px;
+			max-width: 100%;
+			display: block;
 
 			@include respond-to(SMALL) {
 				max-height: 35px;
-				width: auto;
 			}
 		}
 	}
