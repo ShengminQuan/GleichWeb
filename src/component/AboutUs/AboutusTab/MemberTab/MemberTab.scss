@@ -1,6 +1,7 @@
 :local {
 	.member {
 		border-radius: 5px;
+		overflow: hidden;
 		transform: scale(0.7);
 		opacity: 0.2;
 		animation: zoomOut 0.5s ease-in-out 0s 1;
