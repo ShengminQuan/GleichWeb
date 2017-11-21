@@ -2,13 +2,6 @@
 <script src="./AboutUs.js"></script>
 
 <template>
-	<div id="about-us">
-		<div class="container text-center summary-wrap">
-			<h2 class="heading-01">{{ $t('about_us.title') }}</h2>
-			<hr class="heading-01--underline"/>
-			<p>{{ $t('about_us.desc') }}</p>
-		</div>
-		<AboutusTab />
-	</div>
+	<AboutusTab />
 </template>
 

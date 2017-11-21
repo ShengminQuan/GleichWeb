@@ -5,8 +5,11 @@
 	<div>
 		<MenuComponent componentId="MenuComponent" />
 		<HeroSlider />
-		<AboutUs />
-		<Business />
+		<AboutGleich />
+		<div id="parallax-bg" :class="$style.wrapper">
+			<AboutUs />
+			<Business />
+		</div>
 		<!--<News />-->
 		<ContactUs />
 		<FooterComponent />

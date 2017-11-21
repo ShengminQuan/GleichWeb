@@ -3,8 +3,10 @@
 
 <template>
 	<div>
-		<div class="container text-center summary-wrap">
-			<p>{{ $t('business.desc') }}</p>
+		<div style="background: #fff;">
+			<div class="container text-center summary-wrap">
+				<p>{{ $t('business.desc') }}</p>
+			</div>
 		</div>
 		<div :class="$style.wrap">
 			<div class="container text-center summary-wrap" id="foundation">
