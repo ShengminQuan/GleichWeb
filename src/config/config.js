@@ -45,7 +45,7 @@ const config = {
 			},
 			{
 				code: 'zh-cn',
-				urlPrefix: 'zh',
+				urlPrefix: '中文',
 				translationKey: 'zh-cn',
 			},
 		],

@@ -13,7 +13,7 @@ export default {
 	methods: {
 		detectScrolling() {
 			const scroll = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-			this.enableFixed = scroll > 200;
+			this.enableFixed = scroll > 800 - window.innerHeight * 0.8;
 		},
 	},
 	mounted() {
