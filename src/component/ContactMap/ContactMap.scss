@@ -1,10 +1,24 @@
 :local {
+	.map-wrapper {
+		position: relative;
+	}
 	.map {
 		height: 380px;
 		width: 100%;
 
 		@include respond-to(SMALL) {
 			height: 280px;
+		}
+	}
+
+	.google-map {
+		position: absolute !important;
+		left: 0;
+		top: 0;
+		z-index: -1;
+
+		&.show {
+			z-index: 1;
 		}
 	}
 }

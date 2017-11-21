@@ -4,6 +4,7 @@ import 'modernizr';
 import 'settings';
 import Vue from 'vue';
 import BaiduMap from 'vue-baidu-map';
+import * as VueGoogleMaps from 'vue2-google-maps';
 import VueScrollTo from 'vue-scrollto';
 import VueAwesomeSwiper from 'vue-awesome-swiper';
 import filter from 'filter';
@@ -47,6 +48,16 @@ if (localeConfig.localeEnabled) {
 
 Vue.use(BaiduMap, {
 	ak: 'V4ZAcWo4zX0rQXF3hRHwhyVquao5YjIX',
+});
+
+Vue.use(VueGoogleMaps, {
+	load: {
+		key: 'AIzaSyBfJh-_qvXmXhwRfJ9OR6V5dXxk_SnAmvY',
+		// libraries: 'places', // This is required if you use the Autocomplete plugin
+		// OR: libraries: 'places,drawing'
+		// OR: libraries: 'places,drawing,visualization'
+		// (as you require)
+	},
 });
 
 Vue.use(VueScrollTo, {

@@ -27,7 +27,7 @@ export default {
 			let yPos = window.pageYOffset / 5;
 			yPos = -yPos;
 			// eslint-disable-next-line
-			const coords = '100% ' + yPos + 'px';
+			const coords = '0 ' + yPos + 'px';
 			parallax.style.backgroundPosition = coords;
 		},
 	},
