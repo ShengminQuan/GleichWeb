@@ -2,5 +2,9 @@
 	.map {
 		height: 380px;
 		width: 100%;
+
+		@include respond-to(SMALL) {
+			height: 280px;
+		}
 	}
 }

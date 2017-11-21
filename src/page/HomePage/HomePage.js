@@ -24,7 +24,7 @@ export default {
 	methods: {
 		handleScroll() {
 			const parallax = document.getElementById('parallax-bg');
-			let yPos = window.pageYOffset / 7;
+			let yPos = window.pageYOffset / 5;
 			yPos = -yPos;
 			// eslint-disable-next-line
 			const coords = '100% ' + yPos + 'px';
@@ -33,5 +33,8 @@ export default {
 	},
 	mounted() {
 		window.addEventListener('scroll', this.handleScroll);
+	},
+	beforeDestroy() {
+		window.removeEventListener('scroll', this.handleScroll);
 	},
 };

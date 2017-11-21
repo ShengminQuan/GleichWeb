@@ -23,6 +23,7 @@ export default {
 			this.shownSubMenu = !this.shownSubMenu;
 		},
 		handleScroll() {
+			this.scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
 			if (this.scrollTop > this.businessOffsetTop - 200) {
 				this.activeItem = 3;
 			} else if (this.scrollTop > this.foundationOffsetTop - 200) {
@@ -39,18 +40,11 @@ export default {
 	},
 	mounted() {
 		setTimeout(() => this.getOffset(), 500);
-		window.addEventListener(
-			'scroll',
-			debounce(() => {
-				this.scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-				this.handleScroll();
-			}, 400),
-		);
-		window.addEventListener(
-			'resize',
-			debounce(() => {
-				this.getOffset();
-			}, 400),
-		);
+		window.addEventListener('scroll', debounce(this.handleScroll, 400));
+		window.addEventListener('resize', debounce(this.getOffset, 400));
+	},
+	beforeDestroy() {
+		window.removeEventListener('scroll', debounce(this.handleResize, 400));
+		window.removeEventListener('resize', debounce(this.getOffset, 400));
 	},
 };

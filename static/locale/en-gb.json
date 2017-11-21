@@ -55,15 +55,15 @@
 	  },
 	  "item_2": {
 		"name": "Investor",
-		"desc": "Under Australian laws and regulation, Gleich funds only for wholesale investor and sophisticated investor.<br><br><hr><br><span style='color: #E6CB8B'>Wholesale investor</span> - Single investment over 500K AUD<br><span style='color: #E6CB8B'>Sophisticated investor</span> - According to ASIC regulation, the investors annual income is up to 250,000 AUD in any of last two years. Or personal net assets are over 2.5 million AUD certified by accountant will be considered as sophisticated investor."
+		"desc": "Under Australian laws and regulation, Gleich funds only for wholesale investor and sophisticated investor.<br><hr><span style='color: #E6CB8B'>Wholesale investor</span> - Single investment over 500K AUD<br><span style='color: #E6CB8B'>Sophisticated investor</span> - According to ASIC regulation, the investors annual income is up to 250,000 AUD in any of last two years. Or personal net assets are over 2.5 million AUD certified by accountant will be considered as sophisticated investor."
 	  },
 	  "item_3": {
 		"name": "Product Feature",
-		"desc": "1. Mortgage Investment with securities- the loan has been registered as 1st mortgage and LVR no more than 70% with 3rd party valuation to ensure the security of investment<br>2. Lending Process with great care- benefit the extensive experience of core credit team, the whole investment process has been carefully designed and executed, including mature referral channel, risk management, legal preparation and the administration process.<br>3. Better Returns - the return of the investment normally will be targeted as the RBA cash rate + 5%, which is better than the deposits of bank account."
+		"desc": "1. Mortgage Investment with securities- the loan has been registered as 1st mortgage and LVR no more than 70% with 3rd party valuation to ensure the security of investment. <br>2. Lending Process with great care- benefit the extensive experience of core credit team, the whole investment process has been carefully designed and executed, including mature referral channel, risk management, legal preparation and the administration process.<br>3. Better Returns - the return of the investment normally will be targeted as the RBA cash rate + 5%, which is better than the deposits of bank account."
 	  },
 	  "item_4": {
 		"name": "Risk",
-		"desc": "All kind of investments carry corresponding risk<Br>Australian Government protects consumers against misleading or deceptive and unconscionable conduct affecting all financial products and services. If you need know more information regarding our product, with the gain and risk, please email us, our investor consultant will contact you for providing corresponding product Information Memorandum."
+		"desc": "All kind of investments carry corresponding risk. <Br>Australian Government protects consumers against misleading or deceptive and unconscionable conduct affecting all financial products and services. If you need know more information regarding our product, with the gain and risk, please email us, our investor consultant will contact you for providing corresponding product Information Memorandum."
 	  }
 	},
 	"business": {

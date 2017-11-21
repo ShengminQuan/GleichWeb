@@ -38,12 +38,7 @@ export default {
 		this.handleResize();
 		this.resizeSlider();
 		// _.debounce 是一个通过 lodash 限制操作频率的函数。
-		window.addEventListener(
-			'resize',
-			debounce(() => {
-				this.handleResize();
-			}, 400),
-		);
+		window.addEventListener('resize', debounce(this.handleResize, 400));
 	},
 	methods: {
 		handleResize() {
@@ -57,6 +52,6 @@ export default {
 		},
 	},
 	beforeDestroy() {
-		window.addEventListener('resize', debounce(this.handleResize));
+		window.removeEventListener('resize', debounce(this.handleResize, 400));
 	},
 };
