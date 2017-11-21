@@ -31,9 +31,9 @@ hr.heading-01--underline {
 	margin: 10px auto;
 }
 
-@include respond-to(X_SMALL) {
+@include respond-to(SMALL) {
 	.heading-01 {
-		font-size: 38px;
+		font-size: 28px;
 	}
 
 	.heading-02 {

@@ -13,12 +13,17 @@
 		max-width: $mainTextWidth;
 
 		@include respond-to(SMALL) {
-			padding: 0 50px;
+			padding: 0 20px;
 		}
 
 		i {
 			vertical-align: middle;
 			margin: 0 12px;
+
+			@include respond-to(SMALL) {
+				display: block;
+				margin: 5px auto;
+			}
 		}
 
 		p {

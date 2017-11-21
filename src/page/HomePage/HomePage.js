@@ -24,7 +24,7 @@ export default {
 	methods: {
 		handleScroll() {
 			const parallax = document.getElementById('parallax-bg');
-			let yPos = window.pageYOffset / 10;
+			let yPos = window.pageYOffset / 7;
 			yPos = -yPos;
 			// eslint-disable-next-line
 			const coords = '100% ' + yPos + 'px';

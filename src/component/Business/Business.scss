@@ -3,5 +3,9 @@
 		//background: url('asset/image/business-bg.jpg') no-repeat center center / cover;
 		color: $colorLightGrey;
 		padding: 60px 0;
+
+		@include respond-to(SMALL) {
+			padding: 30px 0;
+		}
 	}
 }

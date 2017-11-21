@@ -105,7 +105,7 @@ a {
 	margin: 0 auto;
 
 	@include respond-to(SMALL) {
-		padding: 50px;
+		padding: 30px 20px;
 	}
 
 	p {
