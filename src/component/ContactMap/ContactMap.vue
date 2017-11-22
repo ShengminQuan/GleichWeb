@@ -3,8 +3,8 @@
 
 <template>
 	<div :class="$style.mapWrapper">
-		<baidu-map :class="$style.map" :center="{lng: 151.25829, lat: -33.889387}" :zoom="15">
-			<bm-marker :position="{lng: 151.25829, lat: -33.889387}" :dragging="true" animation="BMAP_ANIMATION_BOUNCE">
+		<baidu-map :class="$style.map" :center="{lng: 151.207652, lat: -33.872433}" :zoom="15">
+			<bm-marker :position="{lng: 151.207652, lat: -33.872433}" :dragging="true" animation="BMAP_ANIMATION_BOUNCE">
 			</bm-marker>
 		</baidu-map>
 		<gmap-map
