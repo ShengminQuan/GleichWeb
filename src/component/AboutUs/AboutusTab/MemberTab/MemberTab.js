@@ -1,16 +1,10 @@
 import debounce from 'lodash/debounce';
 import { getValue } from 'util/injector';
-import VueScrollbar from 'vue2-scrollbar';
 import { CONFIG_MANAGER } from '../../../../data/Injectables';
 import { VariableNames } from '../../../../data/enum/configNames';
 
-require('vue2-scrollbar/dist/style/vue2-scrollbar.css');
-
 export default {
 	name: 'MemberTab',
-	components: {
-		VueScrollbar,
-	},
 	computed: {
 		swiper() {
 			return this.$refs.memberSwiper.swiper;

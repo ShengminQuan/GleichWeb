@@ -1,10 +1,5 @@
-import MemberTab from './MemberTab/MemberTab';
-
 export default {
 	name: 'AboutusTab',
-	components: {
-		MemberTab,
-	},
 	data() {
 		return {
 			activeItem: 0,
