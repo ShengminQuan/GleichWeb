@@ -7,6 +7,7 @@ import Business from '../../component/Business/Business';
 import FooterComponent from '../../component/FooterComponent/FooterComponent';
 import FloatButtons from '../../component/FloatButtons/FloatButtons';
 import AboutGleich from '../../component/AboutGleich/AboutGleich';
+import OurTeam from '../../component/OurTeam/OurTeam';
 
 export default {
 	name: 'HomePage',
@@ -15,6 +16,7 @@ export default {
 		HeroSlider,
 		AboutGleich,
 		AboutUs,
+		OurTeam,
 		Business,
 		ContactUs,
 		News,

@@ -5,7 +5,7 @@
 
 	.tab-nav {
 		margin: 0 auto;
-		width: 456px;
+		width: 460px;
 		overflow: hidden;
 		position: relative;
 
@@ -15,7 +15,7 @@
 	}
 
 	.nav-active-background {
-		width: 150px;
+		width: 230px;
 		height: 80px;
 		background-image: radial-gradient(ellipse at top, #efefef, #c9c7c7);
 		left: 1px;
@@ -25,7 +25,7 @@
 		transition: left 0.5s;
 
 		@include respond-to(SMALL) {
-			width: 33.3%;
+			width: 50%;
 		}
 
 		&:after {
@@ -48,7 +48,7 @@
 		font-size: pxTorem(16px);
 		height: 80px;
 		line-height: 80px;
-		width: calc(33.33% - 2px);
+		width: calc(50% - 2px);
 		float: left;
 		background: rgba(95, 68, 3, 0.5);
 		text-align: center;
@@ -81,11 +81,7 @@
 		&.rule {
 			line-height: 2;
 			font-size: pxTorem(14px);
-			text-align: center;
-
-			@include respond-to(SMALL) {
-				text-align: left;
-			}
+			text-align: left;
 		}
 	}
 

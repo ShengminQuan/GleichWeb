@@ -2,91 +2,97 @@
   "hero_slider": {
 	"slider_1": {
 	  "title_1": "Partner with Integrity",
-	  "title_2": "Serve with perfection",
-	  "desc": "Owing to deep understanding to Australia finance industry, Gleich focus on Australian credit market to provide risk-controllable and return-expectable finance products which helps Chinese to make value for their oversea asset allocation.Throughout Gleich platform, we believe that we could trust each other, collaborate equally to multi-win and grow together among our employee, investor and share-holder in foreseeable future."
+	  "title_2": "Serve with Perfection",
+	  "desc": "Having a deep understanding of the Australian finance industry, Gleich will focus on the Australian credit market to provide risk-controllable and return-expectable finance products which helps investors to maximize their returns for their oversea asset allocation.Gleich has the requisite expertise to ensure that the growth of investor funds, employee and shareholder returns will be maximized for the foreseeable future."
 	}
   },
   "about_us": {
-	"title": "About Gleich",
-	"desc": "The Word ‘Gleich’ originated from German which means same or equal. It represents the value of sharing, mutual benefit of the company faith. Also Gleich means “immediately” which presents our quality of service with professional & accuracy and the ability of powerful execution."
+	"title": "Our firm",
+	"desc": "The Word “Gleich” originates from German which means same or equal. It represents our company faith includes the value of sharing and mutual benefit.Also Gleich means “immediately” which presents our quality of service with professional & accuracy and the ability of powerful execution with a short turnaround."
   },
   "about_us_tab": {
 	"nav_1": "About Gleich",
 	"item_1": {
 	  "name_1": "Professional",
-	  "desc_1": "Gleich team is formed by various financial professionals and specialized on each projects and its risk evaluation. We have good alliance with some small but unique finance institution to make sure the high quality and scarcity of the project. Gleich has designated a professional fund lawyer and audit firm to ensure the right procedure and compliance as well as the transparency to the investors.",
+	  "desc_1": "Gleich team is formed by various financial professionals and specialize in each project and its risk evaluation. Where the Gleich team does not have the expertise we have committed to outsource via strong alliances to ensure that we maintain   the highest levels of quality and performance.Gleich has appointed a professional fund lawyer and audit firm to ensure the right procedures and compliance is implemented as well as providing transparency to the investors.",
 	  "name_2": "Integrity",
-	  "desc_2": "Integrity is a fundamental to Gleich people as primary consensus and guideline of life. In the long history of financial markets, all kinds of major crises were caused by integrity issue. We firmly believe that between the company and investors, as well as the team should be honest to each other, only doing right thing is to ensure that the company has long-term development.",
+	  "desc_2": "Integrity is fundamental to the Gleich team as a primary consensus and guideline of life. In the long history of financial markets, all kinds of major crises were caused by integrity issues. We firmly believe that the company needs to maintain and reflect high levels of integrity at all times. The team should be honest and ethical, only doing the right thing to ensure that the company has long-term development.",
 	  "name_3": "Connection",
-	  "desc_3": "Gleich firmly believe that the trust between the investors and us is the cornerstone for our “build to last”.<Br>We provide the bundle-investment system product to some new customer to share the risk, benefit and success.In addition, Gleich offer value-added service to the customer for their other investment, buying property and smooth settle down."
+	  "desc_3": "Gleich firmly believe that the trust between the investors and ourselves is the cornerstone for our “build to last”. We provide the bundle-investment system product to investor to share the risks, benefits and success.In addition, Gleich offers value-added services to the investors for their other investments, i.e. buying property and easy settlement process."
 	},
 	"nav_2": "Our Team",
 	"item_2": {
 	  "member_1": {
-		"name": "Warren Muller",
-		"title": "Responsible Manager",
-		"desc": "Warren Muller, Gleich responsible manager. He has over 25 years of experience in financial industry, and was was part of the senior management team of Mariner Financial which managed $1.2 billion or real estate and infrastructure assets. His specialities include asset management, asset wind downs, acquisitions etc.<Br>Warren has extensive experience in corporate governance, strategy, project management, compliance and change management. He is a regular member of audit committees and financial technical advisory teams, and has extensive knowledge and experience of ASIC and ASX compliance and reporting requirements.<br>Warren holds a Bachelor of Commerce and a Graduate Diploma in Accounting from the University of Cape Town, and is a Chartered Accountant with the South African Institute of Chartered Accountants."
+		"name": "Michael Ivkovi",
+		"title": "Independent Chairman of Investment Committee",
+		"desc": "Michael Ivkovic has extensive experience in the structured finance, funds management and investment banking industry in Australia and Asia. Michael was formerly the Chairman of Brick Securities Limited, and Executive Chairman of NZI Securities Limited.<br><Br>Michael established The Australian Private Capital Advisory Services Group in 1988 and retired from that position in 1998 following a management buyout. Since that time Michael has served as a Director of Paramount Securities Limited and the publicly listed Harrington Limited, AFT Limited, Meridien Resources Limited, Meridien Capital Limited and Capital Mining Limited.<br>Michael holds a Bachelor of Commerce degree from the University of New South Wales."
 	  },
 	  "member_2": {
-		"name": "Bright Zhou",
-		"title": "Operational Manager",
-		"desc": "Bright Zhou, Current Operational manager and Compliance Officer. Bright held some management positions in Globe T100 companies since 1990’s, such as Sales director of Cisco South China, Readiness Director, Partner & Alliance Director and Strategic customer Director of Microsoft Greater China Region. With his outstanding strategic vision and accurate process control, he is leading company grow up smoothly and successfully. Bright also play the role as senior consultant in Australia consulting firm ASK Solution since he immigrated to Australia in 2001.<Br>Bright graduated from Huazhong University of Science and Technology and post-graduate in Southwest Jiaotong University."
+		"name": "Bill Zhong",
+		"title": "Chief Executive Officer, Member of Investment Committee",
+		"desc": "As the founder and CEO, Bill is creative and energetic person and is enthusiastic in financial industry, especially the fund management business.<Br><Br>Bill Zhong holds a Master degree of Financial Analysis from UNSW."
 	  },
 	  "member_3": {
-		"name": "Michael Ivkovi",
-		"title": "Head of Investment Committee",
-		"desc": "Michael Ivkovic has extensive experience in the funds management, structured finance, and investment banking industry in Australia and Asia.<Br>Michael was formerly the Chairman of Brick Securities Limited, and Executive Chairman of NZI Securities Limited. Michael established The Australian Private Capital Advisory Services Group in 1988 and retired from that position in 1998 following a management buyout. Since that time Michael has served as a Director of Paramount Securities Limited and the publicly listed Harrington Limited, AFT Limited, Meridien Resources Limited, Meridien Capital Limited and Capital Mining Limited.<br>Michael holds a Bachelor of Commerce degree from the University of New South Wales."
+		"name": "Warren Muller",
+		"title": "Member of Investment Committe",
+		"desc": "Warren Muller has over 25 years of experience in CFO and Financial Controller roles in funds management, real estate, energy and infrastructure sectors. His specialities include acquisitions, divestments, asset management, asset wind downs, restructurings/refinancing and managing sophisticated capital projects. Warren will be the key designated person on the AFSL and will participate in the compliance process.<br><Br>Warren holds a Bachelor of Commerce and a Graduate Diploma in Accounting from the University of Cape Town, and is a Chartered Accountant with the South African Institute of Chartered Accountants. He is also a Licensed Property Stock and Business Agent."
+	  },
+	  "member_4": {
+		"name": "Bright Zhou",
+		"title": "Chief Operating Officer",
+		"desc": "Bright Zhou, chief operating officer. Bright held some management positions in Globe T100 companies since 1990’s, such as Sales director of Cisco South China, Readiness Director, Partner & Alliance Director and Strategic customer Director of Microsoft Greater China Region. With his outstanding strategic vision and accurate process control, he is leading company grow up smoothly and successfully. Bright also play the role as senior consultant in Australia consulting firm ASK Solution.<br><Br>Bright graduated from Huazhong University of Science and Technology and post-graduate in Southwest Jiaotong University."
 	  }
 	},
 	"nav_3": "Code of Conduct",
-	"item_3": "1. Treat all Customers with sincere and equality.  Serve them with heart and soul.<Br>2. Clearly and accurately explain the features and potential risks of the product to the customer. Identify all costs to the Customer(s) that are associated with the transaction. Avoiding and/or disclosing any real or perceived conflicts of interest.<Br>3. Preserving client confidentiality at all times<Br>4. Ensure that all contracts are written to comply with Australian Consumer Law and the consumer protection provisions of any other relevant Legislation, Regulation or Code and ensure compliance, where applicable.<Br>5. Gleich team is ready to participate in bundled projects for sharing risk with our customers."
+	"item_3": "1. Treat all Customers with sincerity and respect. Service is important and we will not compromise on this.<Br>2. Clearly and accurately explain the features and potential risks of the product to the investors. Full disclosure of all risks and fees associated with the investment / transaction.<Br>3. Preserving investors confidentiality at all times.<Br>4. Ensure that all contracts are written to comply with Australian Law and the consumer protection provisions of any other relevant Legislation, Regulation or Code and ensure compliance, where applicable.<br>5. Gleich team is ready to participate in bundled projects for sharing risk with our customers."
   },
   "business": {
-	"desc": "Gleich core team formed by elites from finance industry which over 80 years experience in the market. We understand Australia finance especially the operation and know-how of credit market and the requirements of Chinese oversea asset allocation.",
-	"title_1": "Gleich Mortgage Fund",
-	"desc_1": "Gleich Credit fund is aimed to provide the investor a chance to Australian credit market. The Fund focus on the medium/low-risk investment (majorly through commercial property mortgage) to ensure investor’s capital preservation and reasonable interest payment.",
-	"title_2": "Gleich Lending",
-	"desc_2": "Gleich lending is focus on commercial mortgage to provide the borrowers a quick, effective financing solution.",
+	"desc": "Gleich core team formed by elites from finance industry with over 80 years’ experience in the market. We understand Australia finance especially the operation and know-how of credit markets and the requirements of Chinese overseas asset allocation.",
+	"title_1": "Gleich Income Fund",
+	"desc_1": "Gleich Income fund is aimed to provide the investor an opportunity to the Australian credit market. The Fund will focus on the medium/low-risk investment (via commercial and residential property mortgages) to preserve investor’s capital and ongoing interest payment.",
+	"title_2": "Commercial Lending",
+	"desc_2": "Gleich is major focus on commercial lending to provide the borrowers a quick, effective financing solution.",
 	"foundation": {
-	  "name": "Mortgage Fund",
+	  "name": "Income Fund",
 	  "item_1": {
 		"name": "Introduction",
-		"desc": "Gleich Credit Fund is mainly used to invest residential, industry and commercial real estate mortgages. The major gains are the interest paid by the borrowers who are all kinds of real estate developers and the commercial company with properties. The investor will be the first mortgage owner which means the investment more secure.  Compared to bank time deposits, the investor could get the higher interest income."
+		"desc": "Gleich Income Fund is to invest in residential, industry and commercial real estate mortgages. The income will be from the interest paid by the borrowers. Potential borrowers are real estate developers and commercial property investors. Gleich will be targeting the first mortgage to ensure better the security. The Gleich process and turnaround time will ensure that investors returns should exceed bank term deposits."
 	  },
 	  "item_2": {
-		"name": "Investor",
-		"desc": "Under Australian laws and regulation, Gleich funds only for wholesale investor and sophisticated investor.<br><hr><span style='color: #E6CB8B'>Wholesale investor</span> - Single investment over 500K AUD<br><span style='color: #E6CB8B'>Sophisticated investor</span> - According to ASIC regulation, the investors annual income is up to 250,000 AUD in any of last two years. Or personal net assets are over 2.5 million AUD certified by accountant will be considered as sophisticated investor."
+		"name": "Qualified Investors",
+		"desc": "Under Australian laws and regulation, Gleich Income Funds are only for wholesale and sophisticated investor.<br><hr><span style='color: #E6CB8B'>Wholesale investor</span> - Single investment over 500K AUD<br><span style='color: #E6CB8B'>Sophisticated investor</span> - According to ASIC regulation, the investors annual income is up to 250,000 AUD in any of last two years or personal net assets are over 2.5 million AUD. If certified by an accountant you will be considered as a sophisticated investor."
 	  },
 	  "item_3": {
-		"name": "Product Feature",
-		"desc": "1. Mortgage Investment with securities- the loan has been registered as 1st mortgage and LVR no more than 70% with 3rd party valuation to ensure the security of investment. <br>2. Lending Process with great care- benefit the extensive experience of core credit team, the whole investment process has been carefully designed and executed, including mature referral channel, risk management, legal preparation and the administration process.<br>3. Better Returns - the return of the investment normally will be targeted as the RBA cash rate + 5%, which is better than the deposits of bank account."
+		"name": "Product features",
+		"desc": "1.Secured Investment - the loan has been registered as 1st mortgage and LVR no more than 70% with 3rd party valuation to ensure the security of investment<br>2.Gleich Process - the whole investment process has been carefully designed, from the referral channel to risk assessment，loan approval process, legal preparation and ongoing management.<br>3.Better Returns - the return of the investment will normally be targeted as the RBA cash rate + 5%.<Br>4. Diversified Risk - the investment will be allocated to different projects, which could diversify the investment risks."
 	  },
 	  "item_4": {
 		"name": "Risk",
-		"desc": "All kind of investments carry corresponding risk. <Br>Australian Government protects consumers against misleading or deceptive and unconscionable conduct affecting all financial products and services. If you need know more information regarding our product, with the gain and risk, please email us, our investor consultant will contact you for providing corresponding product Information Memorandum."
+		"desc": "All kind of investments carry corresponding risk.<br>Australian Government protects investors against misleading or deceptive and unconscionable conduct affecting all financial products and services.<br>If you need to know more information regarding our product, with the gain and risk, please send us an email to info@gleich.com.au, our consultant will contact you for providing corresponding product Information Memorandum."
 	  }
 	},
 	"business": {
-	  "name_1": "Commercial Loan First Mortgage",
+	  "name_1": "Commercial Loan Full Doc Mortgage",
 	  "name_2": "Commercial Loan Second Mortgage",
 	  "name_3": "Convertible loan",
-	  "desc_1": "A commercial business loan is secured funding provided to a business for any commercial or investment purpose. It may be for a commercial premises or it may be cash-flow for the business operations. This product could lend up to 70% of the security value as 1st mortgagee. Normally it takes5 - 7 business days for funds ready.",
-	  "desc_2": "This product is designed for the client who look for a way to leverage off current commercial property. By using current property (with an existing mortgage) as security for another loan, the client can acquire more funds to purchase that 2nd commercial property or expand business.",
+	  "desc_1": "A commercial business loan is secured funding provided to a business for any commercial or investment purpose. It may be for a commercial premises or it may be just cash-flow for the business operations. There are many advantages this type of arrangement can provide and businesses or start ups can utilise this funding option. This product allows you to borrow up to 70% of the security value.",
+	  "desc_2": "If you are Looking for a way to leverage off your current commercial property to invest quickly then you may consider this product. By using your current property (with an existing mortgage) as security for another loan, you can acquire more funds to purchase that 2nd commercial property or expand your business.",
 	  "desc_3": "Convertible loan is a short-term debt that may converts into equity. Usually it converts at the next investment round. We will assist people for new business idea by providing convertible loans."
 	}
   },
   "contact_us": {
 	"title": "Contact Us",
 	"company": "Gleich Pty Ltd",
-	"address": "Suite 1322 Citigroup, 2 Park Street, Sydney NSW 2000, Australia"
+	"address": "Level 13（1343） Citigroup, 2 Park Street, Sydney NSW 2000, Australia",
+	"phone": "Phone 02 9004 7080"
   },
   "nav": {
 	"about_us": "About Gleich",
-	"fund": "Mortgage Fund",
-	"lending": "Lending",
+	"fund": "Income Fund",
+	"lending": "Commercial Lending",
 	"contact_us": "Contact Us",
 	"fund_1": "Introduction",
-	"fund_2": "Investor",
+	"fund_2": "Qualified Investors",
 	"fund_3": "Product Feature",
 	"fund_4": "Risk",
 	"lending_1": "Commercial Loan First Mortgage",

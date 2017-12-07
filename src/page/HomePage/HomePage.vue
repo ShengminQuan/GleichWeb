@@ -8,6 +8,7 @@
 		<AboutGleich />
 		<div id="parallax-bg" :class="$style.wrapper">
 			<AboutUs />
+			<OurTeam />
 			<Business />
 		</div>
 		<!--<News />-->

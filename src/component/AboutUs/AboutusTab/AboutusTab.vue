@@ -5,14 +5,14 @@
 	<div :class="$style.wrap">
 		<div class="main-container">
 			<div :class="$style.tabNav">
-				<div :class="$style.navActiveBackground" :style="{left: activeItem*33.33 + '%'}"></div>
+				<div :class="$style.navActiveBackground" :style="{left: activeItem*50 + '%'}"></div>
 				<div :class="[$style.navItem, activeItem == 0 ? $style.navItemActive : '']" @click="switchTab(0)">
 					<span>{{ $t('about_us_tab.nav_1') }}</span>
 				</div>
+				<!--<div :class="[$style.navItem, activeItem == 1 ? $style.navItemActive : '']" @click="switchTab(1)">-->
+					<!--<span>{{ $t('about_us_tab.nav_2') }}</span>-->
+				<!--</div>-->
 				<div :class="[$style.navItem, activeItem == 1 ? $style.navItemActive : '']" @click="switchTab(1)">
-					<span>{{ $t('about_us_tab.nav_2') }}</span>
-				</div>
-				<div :class="[$style.navItem, activeItem == 2 ? $style.navItemActive : '']" @click="switchTab(2)">
 					<span>{{ $t('about_us_tab.nav_3') }}</span>
 				</div>
 			</div>
@@ -56,11 +56,11 @@
 					</div>
 				</div>
 
-				<div v-if="activeItem == 1" :class="[$style.tabItem, $style.team]">
-					<MemberTab />
-				</div>
+				<!--<div v-if="activeItem == 1" :class="[$style.tabItem, $style.team]">-->
+					<!--<MemberTab />-->
+				<!--</div>-->
 
-				<div v-if="activeItem == 2"  :class="[$style.tabItem, $style.rule]" v-html="$t('about_us_tab.item_3')">
+				<div v-if="activeItem == 1"  :class="[$style.tabItem, $style.rule]" v-html="$t('about_us_tab.item_3')">
 
 				</div>
 			</div>
