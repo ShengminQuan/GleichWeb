@@ -82,6 +82,32 @@
 			line-height: 2;
 			font-size: pxTorem(14px);
 			text-align: left;
+
+			.rule-icons {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				margin-bottom: 35px;
+
+				@include respond-to(SMALL) {
+					display: none;
+				}
+			}
+
+			.logo {
+				width: 148px;
+				vertical-align: middle;
+			}
+			.arrow {
+				width: 38px;
+				vertical-align: middle;
+				margin: 0 15px;
+			}
+
+			b {
+				font-size: pxTorem(20px);
+			}
 		}
 	}
 

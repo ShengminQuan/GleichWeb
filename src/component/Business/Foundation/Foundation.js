@@ -15,6 +15,9 @@ export default {
 				paginationClickable: true,
 				setWrapperSize: true,
 				width: this.swiperContentWidth,
+				onSlideChangeEnd: swiper => {
+					this.currentSlider = swiper.activeIndex;
+				},
 			};
 		},
 		swiper() {

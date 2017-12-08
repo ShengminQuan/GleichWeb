@@ -60,8 +60,13 @@
 					<!--<MemberTab />-->
 				<!--</div>-->
 
-				<div v-if="activeItem == 1"  :class="[$style.tabItem, $style.rule]" v-html="$t('about_us_tab.item_3')">
-
+				<div v-if="activeItem == 1"  :class="[$style.tabItem, $style.rule]">
+					<div :class="$style.ruleIcons">
+						<img :class="$style.logo" src="~asset/image/logo.png">
+						<img :class="$style.arrow" src="~asset/image/exchange-arrow.png">
+						<b>{{ $t('about_us_tab.our_custom') }}</b>
+					</div>
+					<p v-html="$t('about_us_tab.item_3')"></p>
 				</div>
 			</div>
 		</div>

@@ -10,6 +10,8 @@
 				<p>
 					<b>{{ $t('contact_us.company') }}</b>
 					{{ $t('contact_us.address') }}
+					<br><br>
+					<b>{{ $t('contact_us.phone') }}</b>
 				</p>
 				<a href="mailto:info@gleich.com.au">info@gleich.com.au</a>
 			</div>
