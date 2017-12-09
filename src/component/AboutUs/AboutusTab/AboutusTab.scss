@@ -82,6 +82,7 @@
 			line-height: 2;
 			font-size: pxTorem(14px);
 			text-align: left;
+			width: 100%;
 
 			.rule-icons {
 				display: flex;
@@ -89,24 +90,34 @@
 				justify-content: center;
 				align-items: center;
 				margin-bottom: 35px;
-
-				@include respond-to(SMALL) {
-					display: none;
-				}
+				width: 100%;
 			}
 
 			.logo {
 				width: 148px;
 				vertical-align: middle;
+
+				@include respond-to(SMALL) {
+					width: 100px;
+				}
 			}
+
 			.arrow {
 				width: 38px;
 				vertical-align: middle;
 				margin: 0 15px;
+
+				@include respond-to(SMALL) {
+					width: 20px;
+				}
 			}
 
 			b {
 				font-size: pxTorem(20px);
+
+				@include respond-to(SMALL) {
+					font-size: pxTorem(14px);
+				}
 			}
 		}
 	}

@@ -100,6 +100,23 @@ a {
 	}
 }
 
+.en-gb {
+	.zh {
+		display: none;
+	}
+	.en {
+		display: block;
+	}
+}
+.cn-zh {
+	.zh {
+		display: block;
+	}
+	.en {
+		display: none;
+	}
+}
+
 .summary-wrap {
 	padding: 60px 0;
 	margin: 0 auto;

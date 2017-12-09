@@ -52,7 +52,8 @@
 							</span>
 							<span :class="$style.dotLine"></span>
 							<div :class="$style.content">
-								<img src="~asset/image/foundation_3.jpg">
+								<img class="zh" src="~asset/image/foundation_3_zh.jpg">
+								<img class="cn" src="~asset/image/foundation_3_en.jpg">
 								<p v-html="$t('business.foundation.item_3.desc')"></p>
 							</div>
 						</div>

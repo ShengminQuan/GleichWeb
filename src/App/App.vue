@@ -2,7 +2,7 @@
 <script src="./App.js"></script>
 
 <template>
-	<div>
+	<div :class="$store.getters.currentLanguage.code ">
 		<router-view></router-view>
 	</div>
 </template>

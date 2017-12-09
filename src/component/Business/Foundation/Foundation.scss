@@ -105,7 +105,7 @@
 			font-size: 16px;
 
 			@include respond-to(SMALL) {
-				padding: 0 40px;
+				padding: 0 20px;
 				text-align: center;
 			}
 		}
@@ -171,7 +171,7 @@
 		border-radius: 5px;
 
 		@include respond-to(SMALL) {
-			padding: 20px 0;
+			padding: 20px 0 30px 0;
 		}
 	}
 
