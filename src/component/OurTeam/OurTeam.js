@@ -14,6 +14,9 @@ export default {
 				spaceBetween: 20,
 				nextButton: '.swiper-button-next',
 				prevButton: '.swiper-button-prev',
+				onSlideChangeEnd: swiper => {
+					this.activeItem = swiper.activeIndex;
+				},
 			},
 			notNextTick: true,
 		};

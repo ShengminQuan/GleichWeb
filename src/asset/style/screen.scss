@@ -108,12 +108,16 @@ a {
 		display: block;
 	}
 }
-.cn-zh {
+.zh-cn {
 	.zh {
 		display: block;
 	}
 	.en {
 		display: none;
+	}
+	.rule-item {
+		max-width: 400px;
+		margin: 0 auto;
 	}
 }
 

@@ -66,7 +66,7 @@
 						<img :class="$style.arrow" src="~asset/image/exchange-arrow.png">
 						<b>{{ $t('about_us_tab.our_custom') }}</b>
 					</div>
-					<p v-html="$t('about_us_tab.item_3')"></p>
+					<p class="rule-item" v-html="$t('about_us_tab.item_3')"></p>
 				</div>
 			</div>
 		</div>

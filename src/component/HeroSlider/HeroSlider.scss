@@ -2,7 +2,6 @@
 	.slider {
 		height: 685px;
 		text-align: center;
-		color: $colorLightGrey;
 
 		@include respond-to(SMALL) {
 			height: 580px;
@@ -11,11 +10,26 @@
 
 	.slider-content {
 		max-width: $mainTextWidth;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 2;
+		color: $colorLightGrey;
+		pointer-events: none;
+		background: rgba(0, 0, 0, 0.7);
+		padding: 30px;
 
 		@include respond-to(SMALL) {
-			padding: 0 20px;
+			padding: 20px;
 		}
 
+		h2 {
+			transform: scale(0.8);
+			opacity: 0.2;
+			animation: zoomOut 1s ease-in-out 0.5s 1;
+			animation-fill-mode: forwards;
+		}
 		i {
 			vertical-align: middle;
 			margin: 0 12px;
@@ -29,6 +43,7 @@
 		p {
 			font-size: pxTorem(14px);
 			line-height: (24 / 14);
+			text-align: center;
 
 			@include respond-to(SMALL) {
 				font-size: pxTorem(12px);
@@ -38,7 +53,20 @@
 
 	.slider1,
 	.slider2,
-	.slider3 {
+	.slider3,
+	.slider4,
+	.slider5 {
 		background: url('asset/image/HeroSlider-01.jpg') no-repeat center center / cover;
+	}
+
+	@keyframes zoomOut {
+		0% {
+			transform: scale(0.8);
+			opacity: 0.2;
+		}
+		100% {
+			transform: scale(1);
+			opacity: 1;
+		}
 	}
 }
