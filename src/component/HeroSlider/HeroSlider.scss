@@ -58,6 +58,9 @@
 	.slider5 {
 		background: url('asset/image/HeroSlider-01.jpg') no-repeat center center / cover;
 	}
+	.slider .pagination {
+		bottom: 20px;
+	}
 
 	@keyframes zoomOut {
 		0% {

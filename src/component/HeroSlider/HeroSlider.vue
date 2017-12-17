@@ -21,7 +21,7 @@
 			</swiper-slide>
 			<swiper-slide class="flex-center" :class="$style.slider5">
 			</swiper-slide>
-			<div :class="$style.pagination" class="swiper-pagination" slot="pagination"></div>
+			<div :class="$style.pagination" class="swiper-pagination swiper-pagination-bullets" slot="pagination"></div>
 		</swiper>
 	</div>
 </template>
