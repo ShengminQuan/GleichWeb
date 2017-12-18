@@ -5,7 +5,7 @@ export default {
 			swiperOption: {
 				pagination: '.swiper-pagination',
 				paginationClickable: true,
-				autoplay: 3000,
+				// autoplay: 3000,
 			},
 		};
 	},

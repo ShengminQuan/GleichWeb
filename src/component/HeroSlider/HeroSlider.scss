@@ -53,12 +53,20 @@
 		}
 	}
 
-	.slider1,
-	.slider2,
-	.slider3,
-	.slider4,
+	.slider1 {
+		background: url('asset/image/hero-sydney.jpg') no-repeat center center / cover;
+	}
+	.slider2 {
+		background: url('asset/image/hero-melbroune.jpg') no-repeat center center / cover;
+	}
+	.slider3 {
+		background: url('asset/image/hero-goldcost.jpg') no-repeat center center / cover;
+	}
+	.slider4 {
+		background: url('asset/image/hero-hangzou.jpg') no-repeat center center / cover;
+	}
 	.slider5 {
-		background: url('asset/image/HeroSlider-01.jpg') no-repeat center center / cover;
+		background: url('asset/image/hero-fuzhou.jpg') no-repeat center center / cover;
 	}
 	.slider .pagination {
 		bottom: 20px;
