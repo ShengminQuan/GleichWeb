@@ -19,9 +19,11 @@
 		pointer-events: none;
 		background: rgba(0, 0, 0, 0.7);
 		padding: 30px;
+		text-align: center;
 
 		@include respond-to(SMALL) {
 			padding: 20px;
+			width: 90%;
 		}
 
 		h2 {
