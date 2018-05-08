@@ -23,12 +23,6 @@
 						{{ $t('about_us_tab.item_2.member_3.name') }}
 					</p>
 				</div>
-				<div :class="[$style.sliderNavItem, activeItem == 3 ? $style.active : '' ]" @click="swipeSlider(3)">
-					<p>
-						{{ $t('about_us_tab.item_2.member_4.name') }}
-					</p>
-				</div>
-
 			</div>
 			<div class="container" :class="$style.sliderWrap" >
 				<swiper :options="swiperOption" :not-next-tick="notNextTick" ref="memberSwiper">
@@ -77,20 +71,6 @@
 						</div>
 					</swiper-slide>
 
-					<swiper-slide :class="$style.member">
-						<div :class="$style.memberPic">
-							<img src="~asset/image/member-04.jpg">
-							<div :class="$style.memberInfo">
-								<span :class="$style.memberName">{{ $t('about_us_tab.item_2.member_4.name') }}</span>
-								<span :class="$style.memberTitle">{{ $t('about_us_tab.item_2.member_4.title') }}</span>
-							</div>
-						</div>
-						<div :class="$style.memberDesc">
-							<span :class="$style.memberDescName">{{ $t('about_us_tab.item_2.member_4.name') }}</span>
-							<span :class="$style.memberDescTitle">{{ $t('about_us_tab.item_2.member_4.title') }}</span>
-							<p v-html="$t('about_us_tab.item_2.member_4.desc')"></p>
-						</div>
-					</swiper-slide>
 					<div class="swiper-pagination" slot="pagination"></div>
 				</swiper>
 				<div :class="$style.swiperLeftArrow" class="swiper-button-prev"
