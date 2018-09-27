@@ -55,6 +55,7 @@
 	"desc_2": "Gleich信贷业务专注于商业贷款，为客户的资金需求提供快速有效的融资解决方案。",
 	"foundation": {
 	  "name": "收益基金",
+	  "link": "链接",
 	  "item_1": {
 		"name": "基金概要",
 		"desc": "Gleich收益基金主要投资住宅、工业及商业地产抵押贷款，主要的收入来源为借贷者所支付的利息。潜在借贷者为各类房产开发商，及拥有物业的商业公司。投资者作为地产物业的第一抵押权方，以获得更好的资本保障。公司将通过流程与风控确保投资者的收益可超过银行的定期存款收益。"
@@ -70,6 +71,10 @@
 	  "item_4": {
 		"name": "投资风险",
 		"desc": "任何形式的投资都伴随相应的风险。<Br>澳洲政府保护投资者在各类金融产品和服务中免受任何误导、欺骗和不合理的行为。<br>如果您希望了解更多相关的产品信息，如投资的收益及风险，请发送邮件至info@gleich.com.au，我们的投资顾问会来联系您并提供相应的产品信息备忘录。"
+	  },
+	  "item_5": {
+		"name": "信息备忘录",
+		"desc": "All kind of investments carry corresponding risk.<br>Australian Government protects investors against misleading or deceptive and unconscionable conduct affecting all financial products and services.<br>If you need to know more information regarding our product, with the gain and risk, please send us an email to info@gleich.com.au, our consultant will contact you for providing corresponding product Information Memorandum."
 	  }
 	},
 	"business": {

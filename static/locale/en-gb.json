@@ -55,6 +55,7 @@
 	"desc_2": "Gleich is major focus on commercial lending to provide the borrowers a quick, effective financing solution.",
 	"foundation": {
 	  "name": "Income Fund",
+	  "link": "link",
 	  "item_1": {
 		"name": "Introduction",
 		"desc": "Gleich Income Fund is to invest in residential, industry and commercial real estate mortgages. The income will be from the interest paid by the borrowers. Potential borrowers are real estate developers and commercial property investors. Gleich will be targeting the first mortgage to ensure better the security. The Gleich process and turnaround time will ensure that investors returns should exceed bank term deposits."
@@ -69,6 +70,10 @@
 	  },
 	  "item_4": {
 		"name": "Risk",
+		"desc": "All kind of investments carry corresponding risk.<br>Australian Government protects investors against misleading or deceptive and unconscionable conduct affecting all financial products and services.<br>If you need to know more information regarding our product, with the gain and risk, please send us an email to info@gleich.com.au, our consultant will contact you for providing corresponding product Information Memorandum."
+	  },
+	  "item_5": {
+		"name": "IM",
 		"desc": "All kind of investments carry corresponding risk.<br>Australian Government protects investors against misleading or deceptive and unconscionable conduct affecting all financial products and services.<br>If you need to know more information regarding our product, with the gain and risk, please send us an email to info@gleich.com.au, our consultant will contact you for providing corresponding product Information Memorandum."
 	  }
 	},

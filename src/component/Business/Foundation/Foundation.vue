@@ -17,6 +17,8 @@
 						     @click="goToSlider(2)"><span>{{ $t('business.foundation.item_3.name') }}</span></div>
 						<div :class="[$style.tabNavItem, currentSlider == 3 ? $style.active : '']"
 						     @click="goToSlider(3)"><span>{{ $t('business.foundation.item_4.name') }}</span></div>
+						<div :class="[$style.tabNavItem, currentSlider == 4 ? $style.active : '']"
+							 @click="goToSlider(4)"><span>{{ $t('business.foundation.item_5.name') }}</span></div>
 					</div>
 				</div>
 			</div>
@@ -68,6 +70,20 @@
 								<img src="~asset/image/foundation_4.jpg">
 								<p v-html="$t('business.foundation.item_4.desc')"></p>
 								<a href="mailto:info@gleich.com.au"><b>info@gleich.com.au</b></a>
+							</div>
+						</div>
+					</swiper-slide>
+					<swiper-slide :style="{width: swiperContentWidth + 'px'}">
+						<div :class="$style.swiperContent">
+							<span :class="$style.subtitle">
+								{{ $t('business.foundation.name') }} - {{ $t('business.foundation.item_4.name') }}
+							</span>
+							<span :class="$style.dotLine"></span>
+							<div :class="$style.content">
+								<img src="~asset/image/foundation_4.jpg">
+								<p v-html="$t('business.foundation.item_4.desc')"></p>
+								<a href="mailto:info@gleich.com.au"><b>info@gleich.com.au</b></a><Br/>
+								<a :href="`${$versionRoot}image/pdfs/im_outline.pdf`" target="_blank"><b>{{ $t('business.foundation.link') }}</b></a>
 							</div>
 						</div>
 					</swiper-slide>
