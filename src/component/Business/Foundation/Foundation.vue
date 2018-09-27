@@ -83,7 +83,7 @@
 								<img src="~asset/image/foundation_4.jpg">
 								<p v-html="$t('business.foundation.item_4.desc')"></p>
 								<a href="mailto:info@gleich.com.au"><b>info@gleich.com.au</b></a><Br/>
-								<a :href="`${$versionRoot}image/pdfs/im_outline.pdf`" target="_blank"><b>{{ $t('business.foundation.link') }}</b></a>
+								<a :class="$style.pdfLink" :href="`${$versionRoot}image/pdfs/im_outline.pdf`" target="_blank"><b>{{ $t('business.foundation.link') }}</b></a>
 							</div>
 						</div>
 					</swiper-slide>

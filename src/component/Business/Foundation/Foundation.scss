@@ -134,6 +134,15 @@
 			}
 		}
 
+		.pdfLink {
+			border: 2px solid $colorPrimary;
+			text-decoration: none;
+			border-radius: 5px;
+			padding: 5px 15px;
+			margin-top: 10px;
+			display: inline-block;
+		}
+
 		.content {
 			max-width: 514px;
 			margin-top: 20px;
