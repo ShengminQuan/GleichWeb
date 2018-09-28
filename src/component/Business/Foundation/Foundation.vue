@@ -76,13 +76,13 @@
 					<swiper-slide :style="{width: swiperContentWidth + 'px'}">
 						<div :class="$style.swiperContent">
 							<span :class="$style.subtitle">
-								{{ $t('business.foundation.name') }} - {{ $t('business.foundation.item_4.name') }}
+								{{ $t('business.foundation.name') }} - {{ $t('business.foundation.item_5.name') }}
 							</span>
 							<span :class="$style.dotLine"></span>
 							<div :class="$style.content">
-								<img src="~asset/image/foundation_4.jpg">
-								<p v-html="$t('business.foundation.item_4.desc')"></p>
-								<a href="mailto:info@gleich.com.au"><b>info@gleich.com.au</b></a><Br/>
+								<img src="~asset/image/foundation_5.jpg">
+								<p v-html="$t('business.foundation.item_5.desc')"></p>
+								
 								<a :class="$style.pdfLink" :href="`${$versionRoot}image/pdfs/im_outline.pdf`" target="_blank"><b>{{ $t('business.foundation.link') }}</b></a>
 							</div>
 						</div>

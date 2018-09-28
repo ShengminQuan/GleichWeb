@@ -8,7 +8,7 @@
   },
   "about_us": {
 	"title": "Our firm",
-	"desc": "The Word “Gleich” originates from German which means same or equal. It represents our company faith includes the value of sharing and mutual benefit.<br>Also Gleich means “immediately” which presents our quality of service with professional & accuracy and the ability of powerful execution with a short turnaround."
+	"desc": "The Word “Gleich” originates from German which means same or equal. It represents our company faith includes the value of sharing and mutual benefit.<br>Also Gleich means “immediately” which presents our quality of service with professional & accuracy and the ability of powerful execution with a short turnaround.</br></br> Gleich Asset Management Pty Ltd (ACN 622 349 768) is authorized and regulated by the Australian Securities and Investments Commission, and holds an AFS license 505 207"
   },
   "about_us_tab": {
 	"nav_1": "About Gleich",
@@ -34,7 +34,7 @@
 	  },
 	  "member_3": {
 		"name": "Warren Muller",
-		"title": "Member of Investment Committe",
+		"title": "Chief Investment Officer, Responsible Manager",
 		"desc": "Warren Muller has over 25 years of experience in CFO and Financial Controller roles in funds management, real estate, energy and infrastructure sectors. His specialities include acquisitions, divestments, asset management, asset wind downs, restructurings/refinancing and managing sophisticated capital projects. Warren will be the key designated person on the AFSL and will participate in the compliance process.<br><Br>Warren holds a Bachelor of Commerce and a Graduate Diploma in Accounting from the University of Cape Town, and is a Chartered Accountant with the South African Institute of Chartered Accountants. He is also a Licensed Property Stock and Business Agent."
 	  },
 	  "member_4": {
@@ -55,7 +55,7 @@
 	"desc_2": "Gleich is major focus on commercial lending to provide the borrowers a quick, effective financing solution.",
 	"foundation": {
 	  "name": "Income Fund",
-	  "link": "link",
+	  "link": "Information Memorandum.pdf",
 	  "item_1": {
 		"name": "Introduction",
 		"desc": "Gleich Income Fund is to invest in residential, industry and commercial real estate mortgages. The income will be from the interest paid by the borrowers. Potential borrowers are real estate developers and commercial property investors. Gleich will be targeting the first mortgage to ensure better the security. The Gleich process and turnaround time will ensure that investors returns should exceed bank term deposits."
@@ -74,7 +74,7 @@
 	  },
 	  "item_5": {
 		"name": "IM",
-		"desc": "All kind of investments carry corresponding risk.<br>Australian Government protects investors against misleading or deceptive and unconscionable conduct affecting all financial products and services.<br>If you need to know more information regarding our product, with the gain and risk, please send us an email to info@gleich.com.au, our consultant will contact you for providing corresponding product Information Memorandum."
+		"desc": "Please find more information below."
 	  }
 	},
 	"business": {
@@ -101,6 +101,7 @@
 	"fund_2": "Qualified Investors",
 	"fund_3": "Product Feature",
 	"fund_4": "Risk",
+	"fund_5":"IM",
 	"lending_1": "Commercial Loan First Mortgage",
 	"lending_2": "Commercial Loan Second Mortgage",
 	"lending_3": "Convertible Loan"
