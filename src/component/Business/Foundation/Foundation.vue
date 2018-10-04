@@ -82,8 +82,10 @@
 							<div :class="$style.content">
 								<img src="~asset/image/foundation_5.jpg">
 								<p v-html="$t('business.foundation.item_5.desc')"></p>
-								
+								<br>
 								<a :class="$style.pdfLink" :href="`${$versionRoot}image/pdfs/im_outline.pdf`" target="_blank"><b>{{ $t('business.foundation.link') }}</b></a>
+								<br><br>
+								<a :class="$style.pdfLink" :href="`${$versionRoot}image/pdfs/Income Fund Application.pdf`" target="_blank"><b>{{ $t('business.foundation.link1') }}</b></a>
 							</div>
 						</div>
 					</swiper-slide>
